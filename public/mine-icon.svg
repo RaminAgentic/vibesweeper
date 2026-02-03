@@ -1,0 +1,26 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#1f2937"/>
+
+  <!-- Mine circle -->
+  <circle cx="256" cy="256" r="180" fill="#374151"/>
+  <circle cx="256" cy="256" r="150" fill="#4b5563"/>
+
+  <!-- Mine spikes -->
+  <line x1="256" y1="76" x2="256" y2="20" stroke="#9ca3af" stroke-width="24" stroke-linecap="round"/>
+  <line x1="256" y1="436" x2="256" y2="492" stroke="#9ca3af" stroke-width="24" stroke-linecap="round"/>
+  <line x1="76" y1="256" x2="20" y2="256" stroke="#9ca3af" stroke-width="24" stroke-linecap="round"/>
+  <line x1="436" y1="256" x2="492" y2="256" stroke="#9ca3af" stroke-width="24" stroke-linecap="round"/>
+
+  <!-- Diagonal spikes -->
+  <line x1="135" y1="135" x2="90" y2="90" stroke="#9ca3af" stroke-width="20" stroke-linecap="round"/>
+  <line x1="377" y1="377" x2="422" y2="422" stroke="#9ca3af" stroke-width="20" stroke-linecap="round"/>
+  <line x1="377" y1="135" x2="422" y2="90" stroke="#9ca3af" stroke-width="20" stroke-linecap="round"/>
+  <line x1="135" y1="377" x2="90" y2="422" stroke="#9ca3af" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Highlight -->
+  <circle cx="200" cy="200" r="40" fill="#6b7280" opacity="0.5"/>
+
+  <!-- Text -->
+  <text x="256" y="520" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#e5e7eb" text-anchor="middle">MINESWEEPER</text>
+</svg>

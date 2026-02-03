@@ -49,11 +49,12 @@
     {
       "sessionId": "session_sprint_1770111649899_6_1770117368582",
       "sprintId": "sprint_1770111649899_6",
-      "status": "running",
+      "status": "completed",
       "startedAt": "2026-02-03T11:16:08.582Z",
       "tasksCompleted": 0,
-      "totalTasks": 9
+      "totalTasks": 9,
+      "endedAt": "2026-02-03T11:31:59.740Z"
     }
   ],
-  "lastUpdated": "2026-02-03T11:16:09.294Z"
+  "lastUpdated": "2026-02-03T11:32:00.119Z"
 }

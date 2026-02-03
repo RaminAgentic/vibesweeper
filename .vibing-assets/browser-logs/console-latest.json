@@ -2,7 +2,7 @@
   "sessionId": "session_1770116569995",
   "sessionUrl": "http://localhost:5174",
   "sessionTitle": "Unknown",
-  "lastUpdated": "2026-02-03T11:12:51.292Z",
+  "lastUpdated": "2026-02-03T11:31:34.410Z",
   "logs": [
     {
       "level": "log",
@@ -311,6 +311,160 @@
       "timestamp": "2026-02-03T11:12:51.252Z",
       "line": 8,
       "sourceId": ""
+    },
+    {
+      "level": "log",
+      "message": "[vite] connecting...",
+      "timestamp": "2026-02-03T11:31:33.154Z",
+      "line": 495,
+      "sourceId": "http://localhost:5174/@vite/client"
+    },
+    {
+      "level": "log",
+      "message": "[vite] connecting...",
+      "timestamp": "2026-02-03T11:31:33.157Z",
+      "line": 495,
+      "sourceId": "http://localhost:5174/@vite/client"
+    },
+    {
+      "level": "log",
+      "message": "[vite] connected.",
+      "timestamp": "2026-02-03T11:31:33.188Z",
+      "line": 614,
+      "sourceId": "http://localhost:5174/@vite/client"
+    },
+    {
+      "level": "log",
+      "message": "[vite] connected.",
+      "timestamp": "2026-02-03T11:31:33.189Z",
+      "line": 614,
+      "sourceId": "http://localhost:5174/@vite/client"
+    },
+    {
+      "level": "warning",
+      "message": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "timestamp": "2026-02-03T11:31:33.189Z",
+      "line": 20103,
+      "sourceId": "http://localhost:5174/node_modules/.vite/deps/react-dom_client.js?v=574cfbef"
+    },
+    {
+      "level": "warning",
+      "message": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "timestamp": "2026-02-03T11:31:33.189Z",
+      "line": 20103,
+      "sourceId": "http://localhost:5174/node_modules/.vite/deps/react-dom_client.js?v=574cfbef"
+    },
+    {
+      "level": "error",
+      "message": "%cElectron Security Warning (allowRunningInsecureContent) font-weight: bold; This renderer process has \"allowRunningInsecureContent\"\n  enabled. This exposes users of this app to severe security risks.\n\n  \nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+      "timestamp": "2026-02-03T11:31:33.192Z",
+      "line": 2,
+      "sourceId": "node:electron/js2c/renderer_init"
+    },
+    {
+      "level": "error",
+      "message": "%cElectron Security Warning (allowRunningInsecureContent) font-weight: bold; This renderer process has \"allowRunningInsecureContent\"\n  enabled. This exposes users of this app to severe security risks.\n\n  \nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+      "timestamp": "2026-02-03T11:31:33.192Z",
+      "line": 2,
+      "sourceId": "node:electron/js2c/renderer_init"
+    },
+    {
+      "level": "error",
+      "message": "%cElectron Security Warning (experimentalFeatures) font-weight: bold; This renderer process has \"experimentalFeatures\" enabled.\n  This exposes users of this app to some security risk. If you do not need\n  this feature, you should disable it.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+      "timestamp": "2026-02-03T11:31:33.192Z",
+      "line": 2,
+      "sourceId": "node:electron/js2c/renderer_init"
+    },
+    {
+      "level": "error",
+      "message": "%cElectron Security Warning (experimentalFeatures) font-weight: bold; This renderer process has \"experimentalFeatures\" enabled.\n  This exposes users of this app to some security risk. If you do not need\n  this feature, you should disable it.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+      "timestamp": "2026-02-03T11:31:33.192Z",
+      "line": 2,
+      "sourceId": "node:electron/js2c/renderer_init"
+    },
+    {
+      "level": "error",
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+      "timestamp": "2026-02-03T11:31:33.192Z",
+      "line": 2,
+      "sourceId": "node:electron/js2c/renderer_init"
+    },
+    {
+      "level": "error",
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
+      "timestamp": "2026-02-03T11:31:33.192Z",
+      "line": 2,
+      "sourceId": "node:electron/js2c/renderer_init"
+    },
+    {
+      "level": "warning",
+      "message": "Console capture initialized",
+      "timestamp": "2026-02-03T11:31:34.225Z",
+      "line": 8,
+      "sourceId": ""
+    },
+    {
+      "level": "warning",
+      "message": "Console capture initialized",
+      "timestamp": "2026-02-03T11:31:34.226Z",
+      "line": 8,
+      "sourceId": ""
+    },
+    {
+      "level": "warning",
+      "message": "Console capture initialized",
+      "timestamp": "2026-02-03T11:31:34.279Z",
+      "line": 8,
+      "sourceId": ""
+    },
+    {
+      "level": "warning",
+      "message": "Console capture initialized",
+      "timestamp": "2026-02-03T11:31:34.279Z",
+      "line": 8,
+      "sourceId": ""
+    },
+    {
+      "level": "warning",
+      "message": "[vite] server connection lost. Polling for restart...",
+      "timestamp": "2026-02-03T11:31:34.280Z",
+      "line": 8,
+      "sourceId": ""
+    },
+    {
+      "level": "warning",
+      "message": "[vite] server connection lost. Polling for restart...",
+      "timestamp": "2026-02-03T11:31:34.280Z",
+      "line": 8,
+      "sourceId": ""
+    },
+    {
+      "level": "debug",
+      "message": "[Unhandled Promise Rejection] TypeError: Failed to register a ServiceWorker for scope ('http://localhost:5174/') with script ('http://localhost:5174/dev-sw.js?dev-sw'): An unknown error occurred when fetching the script.",
+      "timestamp": "2026-02-03T11:31:34.281Z",
+      "line": 28,
+      "sourceId": ""
+    },
+    {
+      "level": "debug",
+      "message": "[Unhandled Promise Rejection] TypeError: Failed to register a ServiceWorker for scope ('http://localhost:5174/') with script ('http://localhost:5174/dev-sw.js?dev-sw'): An unknown error occurred when fetching the script.",
+      "timestamp": "2026-02-03T11:31:34.281Z",
+      "line": 28,
+      "sourceId": ""
+    },
+    {
+      "level": "debug",
+      "message": "Uncaught (in promise) TypeError: Failed to register a ServiceWorker for scope ('http://localhost:5174/') with script ('http://localhost:5174/dev-sw.js?dev-sw'): An unknown error occurred when fetching the script.",
+      "timestamp": "2026-02-03T11:31:34.281Z",
+      "line": 0,
+      "sourceId": "http://localhost:5174/"
+    },
+    {
+      "level": "debug",
+      "message": "Uncaught (in promise) TypeError: Failed to register a ServiceWorker for scope ('http://localhost:5174/') with script ('http://localhost:5174/dev-sw.js?dev-sw'): An unknown error occurred when fetching the script.",
+      "timestamp": "2026-02-03T11:31:34.281Z",
+      "line": 0,
+      "sourceId": "http://localhost:5174/"
     }
   ]
 }

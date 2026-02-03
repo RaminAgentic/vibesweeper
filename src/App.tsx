@@ -5,7 +5,9 @@ import { StatsPanel } from './components/StatsPanel';
 import { EndGameModal } from './components/EndGameModal';
 import { DifficultyModal } from './components/DifficultyModal';
 import { RestoreGameModal } from './components/RestoreGameModal';
+import { PWAInstallPrompt } from './components/PWAInstallPrompt';
 import { loadGameState } from './utils/persistence';
+import { usePWAInstall } from './hooks/usePWAInstall';
 
 function App() {
   const {
@@ -23,6 +25,9 @@ function App() {
 
   const [isDifficultyModalOpen, setIsDifficultyModalOpen] = useState(false);
   const [showRestorePrompt, setShowRestorePrompt] = useState(false);
+  const [showInstallPrompt, setShowInstallPrompt] = useState(false);
+
+  const { isInstallable, isInstalled, promptInstall } = usePWAInstall();
 
   // Check for saved game state on mount
   useEffect(() => {
@@ -31,6 +36,17 @@ function App() {
       setShowRestorePrompt(true);
     }
   }, []);
+
+  // Show PWA install prompt after a delay
+  useEffect(() => {
+    if (isInstallable && !isInstalled) {
+      const timer = setTimeout(() => {
+        setShowInstallPrompt(true);
+      }, 5000); // Show after 5 seconds
+
+      return () => clearTimeout(timer);
+    }
+  }, [isInstallable, isInstalled]);
 
   const showEndGameModal = gameStatus === 'won' || gameStatus === 'lost';
 
@@ -61,6 +77,15 @@ function App() {
   const handleStartNewGame = () => {
     setShowRestorePrompt(false);
     // Game will start with default difficulty
+  };
+
+  const handleInstallPWA = async () => {
+    await promptInstall();
+    setShowInstallPrompt(false);
+  };
+
+  const handleDismissInstall = () => {
+    setShowInstallPrompt(false);
   };
 
   return (
@@ -151,6 +176,14 @@ function App() {
         <RestoreGameModal
           onRestore={handleRestoreGame}
           onNewGame={handleStartNewGame}
+        />
+      )}
+
+      {/* PWA Install Prompt */}
+      {showInstallPrompt && isInstallable && (
+        <PWAInstallPrompt
+          onInstall={handleInstallPWA}
+          onDismiss={handleDismissInstall}
         />
       )}
     </div>
