@@ -22,20 +22,22 @@ export function Grid({ grid }: GridProps) {
   const cellSize = useResponsiveCellSize(gridWidth, gridHeight);
 
   return (
-    <div
-      className="inline-grid gap-0 border-2 border-gray-500"
-      style={{
-        gridTemplateColumns: `repeat(${gridWidth}, ${cellSize}px)`,
-        gridTemplateRows: `repeat(${gridHeight}, ${cellSize}px)`,
-      }}
-    >
-      {grid.flat().map(cell => (
-        <Cell
-          key={`${cell.row}-${cell.col}`}
-          cell={cell}
-          size={cellSize}
-        />
-      ))}
+    <div className="flex justify-center items-center p-2 sm:p-4">
+      <div
+        className="inline-grid gap-0 border-2 border-gray-500 max-w-[98vw] max-h-[75vh] overflow-auto rounded-sm"
+        style={{
+          gridTemplateColumns: `repeat(${gridWidth}, ${cellSize}px)`,
+          gridTemplateRows: `repeat(${gridHeight}, ${cellSize}px)`,
+        }}
+      >
+        {grid.flat().map(cell => (
+          <Cell
+            key={`${cell.row}-${cell.col}`}
+            cell={cell}
+            size={cellSize}
+          />
+        ))}
+      </div>
     </div>
   );
 }

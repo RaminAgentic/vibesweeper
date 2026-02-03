@@ -13,12 +13,12 @@ interface StatItemProps {
  */
 function StatItem({ icon, label, value }: StatItemProps) {
   return (
-    <div className="flex flex-col items-center gap-1 min-w-[100px]">
-      <div className="text-3xl">{icon}</div>
-      <div className="text-xs uppercase tracking-wider text-gray-600 font-semibold">
+    <div className="flex flex-col items-center gap-0.5 sm:gap-1 min-w-[70px] sm:min-w-[100px]">
+      <div className="text-2xl sm:text-3xl">{icon}</div>
+      <div className="text-[10px] sm:text-xs uppercase tracking-wider text-gray-600 font-semibold">
         {label}
       </div>
-      <div className="text-2xl font-extrabold text-gray-900">
+      <div className="text-lg sm:text-2xl font-extrabold text-gray-900">
         {value}
       </div>
     </div>
@@ -51,9 +51,12 @@ export function StatsPanel() {
 
   return (
     <div
-      className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12
-                 p-6 bg-white rounded-xl shadow-xl border-4 border-gray-900
-                 min-h-[120px]"
+      className="flex flex-row sm:flex-row justify-center items-center
+                 gap-3 sm:gap-8 md:gap-12
+                 p-3 sm:p-6 bg-white rounded-xl shadow-xl
+                 border-2 sm:border-4 border-gray-900
+                 min-h-[80px] sm:min-h-[120px]
+                 sticky top-0 z-10"
       role="region"
       aria-label="Game statistics"
     >

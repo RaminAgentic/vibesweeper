@@ -110,7 +110,7 @@ export function DifficultyModal({
       aria-labelledby="difficulty-modal-title"
     >
       <div
-        className="bg-gradient-to-br from-gray-100 to-gray-200 p-6 sm:p-8 rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto animate-scale-in"
+        className="bg-gradient-to-br from-gray-100 to-gray-200 p-4 sm:p-8 rounded-2xl shadow-2xl max-w-[95vw] sm:max-w-4xl w-full max-h-[90vh] overflow-y-auto animate-scale-in"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Confirmation Dialog */}
@@ -125,10 +125,12 @@ export function DifficultyModal({
             <p className="text-lg font-semibold text-gray-700 mb-6">
               Changing difficulty will reset your current game. Continue?
             </p>
-            <div className="flex gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-md">
               <button
                 onClick={handleConfirmChange}
-                className="px-8 py-4 bg-red-600 text-white font-extrabold text-lg
+                className="flex-1 px-6 sm:px-8 py-4
+                         min-h-[48px] min-w-[44px]
+                         bg-red-600 text-white font-extrabold text-base sm:text-lg
                          rounded-xl hover:bg-red-700 hover:scale-105 active:scale-95
                          transition-all duration-150
                          focus:outline-none focus:ring-4 focus:ring-red-300"
@@ -137,7 +139,9 @@ export function DifficultyModal({
               </button>
               <button
                 onClick={handleCancelConfirmation}
-                className="px-8 py-4 bg-gray-300 text-gray-700 font-bold text-lg
+                className="flex-1 px-6 sm:px-8 py-4
+                         min-h-[48px] min-w-[44px]
+                         bg-gray-300 text-gray-700 font-bold text-base sm:text-lg
                          rounded-xl hover:bg-gray-400 hover:scale-105 active:scale-95
                          transition-all duration-150
                          focus:outline-none focus:ring-4 focus:ring-gray-400"
@@ -173,7 +177,9 @@ export function DifficultyModal({
             />
             <button
               onClick={onClose}
-              className="mt-6 px-8 py-3 bg-gray-300 text-gray-700 font-bold text-lg
+              className="mt-6 px-8 py-4
+                       min-h-[48px] min-w-[120px]
+                       bg-gray-300 text-gray-700 font-bold text-base sm:text-lg
                        rounded-xl hover:bg-gray-400 hover:scale-105 active:scale-95
                        transition-all duration-150
                        focus:outline-none focus:ring-4 focus:ring-gray-400"

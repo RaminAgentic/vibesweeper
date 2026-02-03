@@ -96,7 +96,7 @@ export function EndGameModal({
     >
       <div
         ref={modalRef}
-        className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 border-4 border-gray-900
+        className="bg-white rounded-2xl shadow-2xl max-w-[95vw] sm:max-w-md w-full p-6 sm:p-8 border-4 border-gray-900
                    animate-scaleIn"
         onClick={(e) => e.stopPropagation()}
       >
@@ -126,7 +126,9 @@ export function EndGameModal({
           <button
             ref={restartButtonRef}
             onClick={onRestart}
-            className="w-full px-8 py-4 bg-blue-600 text-white font-extrabold text-xl
+            className="w-full px-6 sm:px-8 py-4
+                       min-h-[52px]
+                       bg-blue-600 text-white font-extrabold text-lg sm:text-xl
                        rounded-xl shadow-lg hover:bg-blue-700 hover:scale-105
                        active:scale-95 transition-all duration-150
                        focus:outline-none focus:ring-4 focus:ring-blue-300"
@@ -137,7 +139,9 @@ export function EndGameModal({
 
           <button
             onClick={onChangeDifficulty}
-            className="w-full px-8 py-4 bg-gray-200 text-gray-900 font-bold text-lg
+            className="w-full px-6 sm:px-8 py-4
+                       min-h-[52px]
+                       bg-gray-200 text-gray-900 font-bold text-base sm:text-lg
                        rounded-xl shadow hover:bg-gray-300 hover:scale-105
                        active:scale-95 transition-all duration-150
                        focus:outline-none focus:ring-4 focus:ring-gray-400"

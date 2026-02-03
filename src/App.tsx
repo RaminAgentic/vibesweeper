@@ -66,10 +66,12 @@ function App() {
       </div>
 
       {/* Control Buttons */}
-      <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full max-w-md">
+      <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 w-full max-w-md px-4 sm:px-0">
         <button
           onClick={resetGame}
-          className="flex-1 px-8 py-4 bg-blue-600 text-white font-extrabold text-lg
+          className="flex-1 px-6 sm:px-8 py-4 sm:py-4
+                     min-h-[48px] sm:min-h-[56px] min-w-[44px]
+                     bg-blue-600 text-white font-extrabold text-base sm:text-lg
                      rounded-xl shadow-lg hover:bg-blue-700 hover:scale-105
                      active:scale-95 transition-all duration-150
                      focus:outline-none focus:ring-4 focus:ring-blue-300"
@@ -80,7 +82,9 @@ function App() {
 
         <button
           onClick={handleChangeDifficulty}
-          className="flex-1 px-8 py-4 bg-gray-700 text-white font-bold text-lg
+          className="flex-1 px-6 sm:px-8 py-4 sm:py-4
+                     min-h-[48px] sm:min-h-[56px] min-w-[44px]
+                     bg-gray-700 text-white font-bold text-base sm:text-lg
                      rounded-xl shadow-lg hover:bg-gray-800 hover:scale-105
                      active:scale-95 transition-all duration-150
                      focus:outline-none focus:ring-4 focus:ring-gray-500"

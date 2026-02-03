@@ -17,17 +17,32 @@ export function useResponsiveCellSize(gridWidth: number, gridHeight: number): nu
       // Detect if device has touch capability
       const isMobile = window.matchMedia('(pointer: coarse)').matches;
 
-      // Minimum size constraints
-      const minSize = isMobile ? 32 : 24;
-      const maxSize = 60;
-
       // Get viewport dimensions
       const viewportWidth = window.innerWidth;
       const viewportHeight = window.innerHeight;
 
+      // Detect orientation
+      const isLandscape = viewportWidth > viewportHeight;
+
+      // Minimum size constraints - ensure comfortable touch targets
+      const minSize = isMobile ? 32 : 24;
+
+      // Maximum size constraints - adjusted for ultra-wide displays
+      const isUltrawide = viewportWidth > 2560;
+      const maxSize = isUltrawide ? 70 : (isMobile ? 60 : 65);
+
       // Account for UI elements (header, stats, controls, padding)
-      const horizontalPadding = 32; // 16px on each side
-      const verticalReserved = 400; // Space for header, stats, controls, instructions
+      // Adjust based on device type and orientation
+      const horizontalPadding = isMobile ? 16 : 32;
+
+      // Vertical space reserved for UI elements - optimized for orientation
+      let verticalReserved: number;
+      if (isMobile) {
+        // Mobile needs less vertical space in landscape mode
+        verticalReserved = isLandscape ? 250 : 450;
+      } else {
+        verticalReserved = 400;
+      }
 
       const availableWidth = viewportWidth - horizontalPadding;
       const availableHeight = viewportHeight - verticalReserved;
