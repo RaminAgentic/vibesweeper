@@ -1,0 +1,75 @@
+{
+  "id": "proj_1770110953697_qzpsui03q",
+  "name": "Minesweeper",
+  "concept": "",
+  "path": "/Users/raminhedayatpour/Documents/VibeProjects/minesweeper",
+  "projectPath": "/Users/raminhedayatpour/Documents/VibeProjects/minesweeper",
+  "status": "concept",
+  "deploymentPort": 5000,
+  "targetUsers": [],
+  "businessGoals": [],
+  "projectType": "prototype",
+  "currentWizardStep": 0,
+  "useCaseNodes": [],
+  "requirementNodes": [],
+  "architectureNodes": [],
+  "sprintNodes": [],
+  "issueNodes": [],
+  "processFlow": {
+    "currentPhase": "concept",
+    "completedPhases": [],
+    "nodeCompletionStats": {
+      "concept": {
+        "total": 1,
+        "completed": 0,
+        "inProgress": 1,
+        "pending": 0
+      },
+      "useCase": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "requirement": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "architecture": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      },
+      "sprint": {
+        "total": 0,
+        "completed": 0,
+        "inProgress": 0,
+        "pending": 0
+      }
+    },
+    "flowValid": true,
+    "validationErrors": [],
+    "lastUserInteraction": "2026-02-03T09:29:13.696Z",
+    "userFeedbackPending": false
+  },
+  "nodeHistory": [
+    {
+      "id": "hist_1770110953709",
+      "timestamp": "2026-02-03T09:29:13.696Z",
+      "action": "created",
+      "nodeId": "proj_1770110953697_qzpsui03q",
+      "nodeType": "project",
+      "oldValue": null,
+      "newValue": "",
+      "cascadingChanges": [],
+      "userInitiated": true,
+      "userReasoning": "Project created by user"
+    }
+  ],
+  "createdAt": "2026-02-03T09:29:13.696Z",
+  "updatedAt": "2026-02-03T09:29:13.696Z",
+  "version": "1.0.0"
+}
