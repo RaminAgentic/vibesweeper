@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useGameStore } from './store/gameStore';
 import { Grid } from './components/Grid';
 import { StatsPanel } from './components/StatsPanel';
 import { EndGameModal } from './components/EndGameModal';
 import { DifficultyModal } from './components/DifficultyModal';
+import { RestoreGameModal } from './components/RestoreGameModal';
+import { loadGameState } from './utils/persistence';
 
 function App() {
   const {
@@ -16,9 +18,19 @@ function App() {
     selectedDifficulty,
     setDifficulty,
     setCustomSettings,
+    hydrate,
   } = useGameStore();
 
   const [isDifficultyModalOpen, setIsDifficultyModalOpen] = useState(false);
+  const [showRestorePrompt, setShowRestorePrompt] = useState(false);
+
+  // Check for saved game state on mount
+  useEffect(() => {
+    const saved = loadGameState();
+    if (saved && saved.gameState.gameStatus === 'in-progress') {
+      setShowRestorePrompt(true);
+    }
+  }, []);
 
   const showEndGameModal = gameStatus === 'won' || gameStatus === 'lost';
 
@@ -39,6 +51,16 @@ function App() {
 
   const handleChangeDifficulty = () => {
     setIsDifficultyModalOpen(true);
+  };
+
+  const handleRestoreGame = () => {
+    hydrate();
+    setShowRestorePrompt(false);
+  };
+
+  const handleStartNewGame = () => {
+    setShowRestorePrompt(false);
+    // Game will start with default difficulty
   };
 
   return (
@@ -123,6 +145,14 @@ function App() {
         onSelectDifficulty={setDifficulty}
         onApplyCustom={setCustomSettings}
       />
+
+      {/* Restore Game Modal */}
+      {showRestorePrompt && (
+        <RestoreGameModal
+          onRestore={handleRestoreGame}
+          onNewGame={handleStartNewGame}
+        />
+      )}
     </div>
   );
 }
