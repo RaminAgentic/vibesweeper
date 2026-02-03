@@ -1,0 +1,15 @@
+{
+  "projectId": "proj_1770110953697_qzpsui03q",
+  "sessions": [
+    {
+      "sessionId": "session_sprint_1770111649899_1_1770112212350",
+      "sprintId": "sprint_1770111649899_1",
+      "status": "completed",
+      "startedAt": "2026-02-03T09:50:12.350Z",
+      "tasksCompleted": 0,
+      "totalTasks": 10,
+      "endedAt": "2026-02-03T10:07:07.307Z"
+    }
+  ],
+  "lastUpdated": "2026-02-03T10:07:07.641Z"
+}

@@ -1,0 +1,1220 @@
+{
+  "logs": [
+    {
+      "id": "log_1770113138327_91tj5lswp",
+      "timestamp": "2026-02-03T10:05:38.327Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113137601_k4luwsg8o",
+      "timestamp": "2026-02-03T10:05:37.602Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113116753_pln0xo4r5",
+      "timestamp": "2026-02-03T10:05:16.753Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113112672_ki5xpg32c",
+      "timestamp": "2026-02-03T10:05:12.672Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113112408_iqitb6tnn",
+      "timestamp": "2026-02-03T10:05:12.408Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113099229_npcif7d8i",
+      "timestamp": "2026-02-03T10:04:59.229Z",
+      "type": "claude-response",
+      "message": "Thank you! I'm glad the minesweeper game is working well. The project is now fully functional with:\n\n✅ Complete game mechanics (mine placement, cell revealing, flagging)\n✅ Difficulty levels (Easy, Medium, Hard)\n✅ Timer and mine counter\n✅ Win/loss detection with confetti celebration\n✅ Clean, responsive UI with Tailwind CSS\n✅ Smooth animations and hover effects\n\nThe game is running on http://localhost:5173 and ready to play. Is there anything else you'd like me to add or modify? Some ideas:\n- High score tracking\n- Custom difficulty settings\n- Sound effects\n- Mobile touch controls optimization\n- Different themes/color schemes\n\nLet me know if you'd like any enhancements!",
+      "sessionId": "claude-code-session_1770110746557_dwz6nw4zz"
+    },
+    {
+      "id": "log_1770113099057_hh5zgu4oa",
+      "timestamp": "2026-02-03T10:04:59.057Z",
+      "type": "info",
+      "message": "Development server started",
+      "details": "App is running at http://localhost:5173",
+      "sessionId": "claude-code-session_1770110746557_dwz6nw4zz"
+    },
+    {
+      "id": "log_1770113086547_hqi3bqu7u",
+      "timestamp": "2026-02-03T10:04:46.547Z",
+      "type": "user-input",
+      "message": "Direct command: Great work"
+    },
+    {
+      "id": "log_1770113068045_zskeq0hfy",
+      "timestamp": "2026-02-03T10:04:28.045Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113067226_jols0y1vz",
+      "timestamp": "2026-02-03T10:04:27.226Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Perfect! Let me verify the build works correctly:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113064148_ipyascw7e",
+      "timestamp": "2026-02-03T10:04:24.148Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113063946_yyy7le64w",
+      "timestamp": "2026-02-03T10:04:23.946Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113050805_vqdosagi4",
+      "timestamp": "2026-02-03T10:04:10.805Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Excellent! The game is working perfectly! The cascade reveal worked - 42 cells were revealed from a single click. Let me verify the final status by checking one more time:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113047133_udtfxczjw",
+      "timestamp": "2026-02-03T10:04:07.133Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113046932_ld3mon38k",
+      "timestamp": "2026-02-03T10:04:06.932Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_evaluate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_evaluate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113042455_02lqk0lls",
+      "timestamp": "2026-02-03T10:04:02.455Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_click",
+      "details": "Using tool: mcp__embeddedBrowser__browser_click",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113038598_r7yajypd9",
+      "timestamp": "2026-02-03T10:03:58.598Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_find_elements",
+      "details": "Using tool: mcp__embeddedBrowser__browser_find_elements",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113038430_3j2hzyvir",
+      "timestamp": "2026-02-03T10:03:58.430Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Excellent! The game is now rendering! Let me test it by clicking on a cell:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113034247_o2swrlvxo",
+      "timestamp": "2026-02-03T10:03:54.247Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113033877_ywvpa8drj",
+      "timestamp": "2026-02-03T10:03:53.878Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_evaluate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_evaluate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113026170_zles6tgwq",
+      "timestamp": "2026-02-03T10:03:46.170Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113021582_bixt5gqt7",
+      "timestamp": "2026-02-03T10:03:41.582Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113021270_8y8uabwbz",
+      "timestamp": "2026-02-03T10:03:41.270Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_navigate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_navigate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113017999_ryuolkmge",
+      "timestamp": "2026-02-03T10:03:38.000Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_evaluate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_evaluate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113012591_0hzd85jf7",
+      "timestamp": "2026-02-03T10:03:32.591Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113012410_7tj9xi702",
+      "timestamp": "2026-02-03T10:03:32.410Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Perfect! Now let me check the server logs to see if it's recompiling:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113008733_58xx9blrj",
+      "timestamp": "2026-02-03T10:03:28.733Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770113000759_2i2cejmv7",
+      "timestamp": "2026-02-03T10:03:20.759Z",
+      "type": "info",
+      "message": "Executing: Edit",
+      "details": "Using tool: Edit",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112996920_c6jcnblni",
+      "timestamp": "2026-02-03T10:03:16.920Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112996726_ykxr5iwtk",
+      "timestamp": "2026-02-03T10:03:16.727Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112985648_q7hdtysyk",
+      "timestamp": "2026-02-03T10:03:05.648Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112985498_l5ntvunj9",
+      "timestamp": "2026-02-03T10:03:05.498Z",
+      "type": "info",
+      "message": "Executing: Edit",
+      "details": "Using tool: Edit",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112981715_b0af3p8b0",
+      "timestamp": "2026-02-03T10:03:01.715Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112973734_ff15xqpax",
+      "timestamp": "2026-02-03T10:02:53.734Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112970447_22z971fad",
+      "timestamp": "2026-02-03T10:02:50.447Z",
+      "type": "info",
+      "message": "Executing: Edit",
+      "details": "Using tool: Edit",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112966809_9kxwz7c9i",
+      "timestamp": "2026-02-03T10:02:46.809Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112966373_p11tjv7rg",
+      "timestamp": "2026-02-03T10:02:46.373Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Found the issue! The TypeScript configuration requires type-only imports. Let me fix all the imports:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112962855_4oz4s95zz",
+      "timestamp": "2026-02-03T10:02:42.855Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112958828_v40ka3qo5",
+      "timestamp": "2026-02-03T10:02:38.828Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112955380_1sqwd98kp",
+      "timestamp": "2026-02-03T10:02:35.380Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112955228_vpy7rbjkh",
+      "timestamp": "2026-02-03T10:02:35.228Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Let me check the Vite logs to see if there's a compilation error:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112952423_osmxvf35v",
+      "timestamp": "2026-02-03T10:02:32.423Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112952161_vr2v8oc93",
+      "timestamp": "2026-02-03T10:02:32.162Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_evaluate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_evaluate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112943284_7cpixgpmv",
+      "timestamp": "2026-02-03T10:02:23.284Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112940456_1xyffaupm",
+      "timestamp": "2026-02-03T10:02:20.456Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112935770_rchtdstty",
+      "timestamp": "2026-02-03T10:02:15.770Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Let me check if there's a JavaScript error by looking at the network activity:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112932493_3l030v5eg",
+      "timestamp": "2026-02-03T10:02:12.493Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_evaluate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_evaluate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112929266_9i9c1ujlb",
+      "timestamp": "2026-02-03T10:02:09.266Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112925716_2p40ryq9j",
+      "timestamp": "2026-02-03T10:02:05.716Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112922435_mck6rs3kt",
+      "timestamp": "2026-02-03T10:02:02.435Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112916883_oayqn4nv9",
+      "timestamp": "2026-02-03T10:01:56.883Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Let me check the browser console for any JavaScript errors:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112913892_ok1s9vbyx",
+      "timestamp": "2026-02-03T10:01:53.892Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112913474_eymyjl5r5",
+      "timestamp": "2026-02-03T10:01:53.474Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_evaluate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_evaluate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112909441_xquqjn1rd",
+      "timestamp": "2026-02-03T10:01:49.442Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_find_elements",
+      "details": "Using tool: mcp__embeddedBrowser__browser_find_elements",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112905672_izw2tnglv",
+      "timestamp": "2026-02-03T10:01:45.672Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_navigate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_navigate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112905358_mychgzekx",
+      "timestamp": "2026-02-03T10:01:45.358Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Excellent! The server is running successfully. Let me reload the browser:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112902391_wuaylkqho",
+      "timestamp": "2026-02-03T10:01:42.391Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112902245_pgtlp2a30",
+      "timestamp": "2026-02-03T10:01:42.245Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112889620_617slggra",
+      "timestamp": "2026-02-03T10:01:29.620Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112889471_3g0qsi01a",
+      "timestamp": "2026-02-03T10:01:29.471Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112882359_tes7ktynv",
+      "timestamp": "2026-02-03T10:01:22.359Z",
+      "type": "info",
+      "message": "Executing: KillShell",
+      "details": "Using tool: KillShell",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112882099_91cxk2dna",
+      "timestamp": "2026-02-03T10:01:22.099Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Now let me kill the old server and restart:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112879022_1zd5qmutk",
+      "timestamp": "2026-02-03T10:01:19.022Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112871258_ktfbsnty0",
+      "timestamp": "2026-02-03T10:01:11.258Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112870838_j072osfrl",
+      "timestamp": "2026-02-03T10:01:10.838Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "I see the issue - Tailwind v4 changed how it works with PostCSS. Let me install the correct version of Tailwind CSS that's compatible:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112866759_mnh1769dl",
+      "timestamp": "2026-02-03T10:01:06.759Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112866536_m1wf52nxh",
+      "timestamp": "2026-02-03T10:01:06.538Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112862807_t4lowqkub",
+      "timestamp": "2026-02-03T10:01:02.808Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_get_content",
+      "details": "Using tool: mcp__embeddedBrowser__browser_get_content",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112859224_1vgsm3gdd",
+      "timestamp": "2026-02-03T10:00:59.224Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_get_console_logs",
+      "details": "Using tool: mcp__embeddedBrowser__browser_get_console_logs",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112859077_lq1v569wg",
+      "timestamp": "2026-02-03T10:00:59.077Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Let me check the console logs and get the page content instead:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112855209_17s51x99s",
+      "timestamp": "2026-02-03T10:00:55.217Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112707143_evaetu8dy",
+      "timestamp": "2026-02-03T09:58:27.143Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_screenshot",
+      "details": "Using tool: mcp__embeddedBrowser__browser_screenshot",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112703910_5suw31oq7",
+      "timestamp": "2026-02-03T09:58:23.910Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_navigate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_navigate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112703510_nqfkc0850",
+      "timestamp": "2026-02-03T09:58:23.510Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Great! The server is running on port 5174. Let me navigate to it with the embedded browser:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112700374_gk6j9k7ds",
+      "timestamp": "2026-02-03T09:58:20.374Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112700223_ab7eae6tq",
+      "timestamp": "2026-02-03T09:58:20.223Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112690124_eluav5inm",
+      "timestamp": "2026-02-03T09:58:10.124Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112687134_952bozdv0",
+      "timestamp": "2026-02-03T09:58:07.137Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112679331_z4h62f06t",
+      "timestamp": "2026-02-03T09:57:59.331Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112677909_4ftko8cjq",
+      "timestamp": "2026-02-03T09:57:57.909Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "The Node.js version is too old for the latest Vite. Let me downgrade Vite to a version compatible with Node 18:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112674909_czkwdt462",
+      "timestamp": "2026-02-03T09:57:54.909Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112674699_uxtrlwgc5",
+      "timestamp": "2026-02-03T09:57:54.699Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112662561_tq77hn70w",
+      "timestamp": "2026-02-03T09:57:42.561Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112661609_gj3h3hdtw",
+      "timestamp": "2026-02-03T09:57:41.609Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112660797_3uu2k61hl",
+      "timestamp": "2026-02-03T09:57:40.797Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Perfect! Now let me test the application by starting the development server:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112657487_aothxzwyl",
+      "timestamp": "2026-02-03T09:57:37.487Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112648437_ayjn88x0j",
+      "timestamp": "2026-02-03T09:57:28.437Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112648265_ytrdvmapi",
+      "timestamp": "2026-02-03T09:57:28.265Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112636263_8ir1uu60n",
+      "timestamp": "2026-02-03T09:57:16.263Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112636115_pigqrv4lu",
+      "timestamp": "2026-02-03T09:57:16.115Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Now let me create the main App component:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112626795_0vt6v34nu",
+      "timestamp": "2026-02-03T09:57:06.795Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112626573_9n3hygpp7",
+      "timestamp": "2026-02-03T09:57:06.573Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112618486_vc6ornm3j",
+      "timestamp": "2026-02-03T09:56:58.486Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "**Task 9: Create Basic Game Grid UI Components**",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112616138_didvq80ci",
+      "timestamp": "2026-02-03T09:56:56.138Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112610533_x1u1xu3ij",
+      "timestamp": "2026-02-03T09:56:50.533Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112610347_6eqg5oo3i",
+      "timestamp": "2026-02-03T09:56:50.348Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112599106_s3umppwe2",
+      "timestamp": "2026-02-03T09:56:39.106Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "**Task 8: Implement Game State Management with React Hooks**",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112596818_ip8m37wez",
+      "timestamp": "2026-02-03T09:56:36.818Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112590747_2jwrcqbn9",
+      "timestamp": "2026-02-03T09:56:30.747Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112590568_gxmweldqh",
+      "timestamp": "2026-02-03T09:56:30.568Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112574125_ahngmr2gn",
+      "timestamp": "2026-02-03T09:56:14.125Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "**Task 6 & 7: Implement Cell Reveal and Cascade Logic**",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112571504_chg12ix7d",
+      "timestamp": "2026-02-03T09:56:11.504Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112565627_3w9ucfpn5",
+      "timestamp": "2026-02-03T09:56:05.627Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112565487_cdm3g0czb",
+      "timestamp": "2026-02-03T09:56:05.487Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112552312_6gietay2n",
+      "timestamp": "2026-02-03T09:55:52.312Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "**Task 4 & 5: Implement Mine Distribution and Adjacent Mine Calculation**",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112549513_2gsgv2xlr",
+      "timestamp": "2026-02-03T09:55:49.513Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112543721_ivxcxgs45",
+      "timestamp": "2026-02-03T09:55:43.721Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112543567_8w66vrwn2",
+      "timestamp": "2026-02-03T09:55:43.567Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112535141_55na68kn7",
+      "timestamp": "2026-02-03T09:55:35.141Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "**Task 3: Implement Grid Generation and Initialization Logic**",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112532870_hxzo1kwcm",
+      "timestamp": "2026-02-03T09:55:32.871Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112527284_bfhaks1zf",
+      "timestamp": "2026-02-03T09:55:27.284Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112527126_434r1xx0a",
+      "timestamp": "2026-02-03T09:55:27.126Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112518812_5ya155enj",
+      "timestamp": "2026-02-03T09:55:18.812Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "**Task 2: Define Core Game Types and Data Structures**",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112516335_udon2wirp",
+      "timestamp": "2026-02-03T09:55:16.335Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112506559_bpik4k2he",
+      "timestamp": "2026-02-03T09:55:06.559Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112505472_ir2myux12",
+      "timestamp": "2026-02-03T09:55:05.472Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112502115_8cbta9oht",
+      "timestamp": "2026-02-03T09:55:02.115Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Now let me create the proper project structure. First, let me check tsconfig for strict mode:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112498876_9z9p33ixu",
+      "timestamp": "2026-02-03T09:54:58.876Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112496064_2n4grde6h",
+      "timestamp": "2026-02-03T09:54:56.065Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112493164_zibtb2dzb",
+      "timestamp": "2026-02-03T09:54:53.165Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112485017_hj8eaepep",
+      "timestamp": "2026-02-03T09:54:45.017Z",
+      "type": "info",
+      "message": "Executing: Write",
+      "details": "Using tool: Write",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112484254_6z5sn1umx",
+      "timestamp": "2026-02-03T09:54:44.254Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Let me create the Tailwind config files manually:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112481333_p04m782rf",
+      "timestamp": "2026-02-03T09:54:41.333Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112470081_1zefen1a7",
+      "timestamp": "2026-02-03T09:54:30.081Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112469921_s8r1rokhg",
+      "timestamp": "2026-02-03T09:54:29.921Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Good! Now install Tailwind CSS:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112466201_xt75h0rxj",
+      "timestamp": "2026-02-03T09:54:26.201Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112435106_zmezsewg5",
+      "timestamp": "2026-02-03T09:53:55.106Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112434073_9vq4koclf",
+      "timestamp": "2026-02-03T09:53:54.073Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Great! Now let me copy the files to our project directory:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112431825_ibbifzjzz",
+      "timestamp": "2026-02-03T09:53:51.825Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112419333_8dregcvss",
+      "timestamp": "2026-02-03T09:53:39.333Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112418511_rr3n96n31",
+      "timestamp": "2026-02-03T09:53:38.511Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Now let me start with Task 1: Initialize the React + TypeScript + Vite project.",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112415108_6r32psq1o",
+      "timestamp": "2026-02-03T09:53:35.108Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112414974_x0i1rr185",
+      "timestamp": "2026-02-03T09:53:34.974Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112406195_gp3gx2dnk",
+      "timestamp": "2026-02-03T09:53:26.196Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112402184_3l3s7ahlw",
+      "timestamp": "2026-02-03T09:53:22.184Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112402051_hhdp2qhh7",
+      "timestamp": "2026-02-03T09:53:22.051Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112401911_xwqex4u42",
+      "timestamp": "2026-02-03T09:53:21.911Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "I'll execute Sprint 1 following the execution plan. Let me start by reading the project.vib file to confirm the architecture requirements.",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112393150_gruil7mdk",
+      "timestamp": "2026-02-03T09:53:13.150Z",
+      "type": "info",
+      "message": "Claude Code Session Started",
+      "details": "Session ID: sprint-execution-session",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112392835_vl9omf3kt",
+      "timestamp": "2026-02-03T09:53:12.835Z",
+      "type": "info",
+      "message": "Claude Code SDK Execution",
+      "details": "Working directory: /Users/raminhedayatpour/Documents/VibeProjects/minesweeper\nPrompt length: 58823 chars",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112392326_mtcnsvfab",
+      "timestamp": "2026-02-03T09:53:12.326Z",
+      "type": "info",
+      "message": "Execution phase",
+      "details": "Starting unified session execution with task tracking...",
+      "sprintId": "sprint_1770111649899_1"
+    },
+    {
+      "id": "log_1770112392326_h7cih35vm",
+      "timestamp": "2026-02-03T09:53:12.326Z",
+      "type": "success",
+      "message": "Planning completed",
+      "details": "Execution plan created successfully",
+      "sessionId": "Now I have a complete understanding of the project requirements. Let me create a comprehensive execution plan for Sprint 1.\n\n---\n\n# Sprint 1 Execution Plan: Project Setup & Core Game Logic\n\n## Executive Summary\n\nSprint 1 establishes the foundation for a modern, responsive Minesweeper game using React, TypeScript, Vite, and Tailwind CSS. This sprint focuses on core game mechanics and infrastructure without UI polish, setting up robust architecture for subsequent sprints.\n\n**Key Deliverables:**\n- Fully configured development environment\n- Type-safe game data structures\n- Complete core game logic (grid generation, mine placement, reveal mechanics, cascade algorithm)\n- Basic playable UI\n- Win/loss detection\n\n---\n\n## 1. Dependency Analysis & Execution Order\n\n### Critical Path (Sequential Dependencies)\n\n```\nTask 1 (Project Setup)\n  ↓\nTask 2 (Type Definitions)\n  ↓\nTask 3 (Grid Generation)\n  ↓\nTask 4 (Mine Distribution) → Task 5 (Adjacent Mine Calculation)\n  ↓                              ↓\nTask 6 (Cell Reveal) ← ← ← ← ← ←\n  ↓\nTask 7 (Cascade Reveal)\n  ↓\nTask 8 (Game State Hook)\n  ↓\nTask 9 (Grid UI Component) → Task 10 (Win/Loss Detection)\n```\n\n### Execution Phases\n\n**Phase 1: Foundation (Tasks 1-2)** - *Estimated: 1-2 hours*\n- Task 1: Project initialization (MUST complete first)\n- Task 2: Type definitions (blocks all subsequent tasks)\n\n**Phase 2: Core Logic Layer (Tasks 3-5)** - *Estimated: 3-4 hours*\n- Task 3: Grid generation (sequential)\n- Task 4 & 5: Mine distribution and calculation (can be developed concurrently after Task 3, tested together)\n\n**Phase 3: Interaction Layer (Tasks 6-7)** - *Estimated: 3-4 hours*\n- Task 6: Cell reveal mechanics (depends on Tasks 3-5)\n- Task 7: Cascade reveal (depends on Task 6)\n\n**Phase 4: Integration Layer (Tasks 8-10)** - *Estimated: 3-4 hours*\n- Task 8: React state management hook (integrates Tasks 3-7)\n- Task 9: Grid UI component (depends on Task 8)\n- Task 10: Win/loss detection (can be developed parallel to Task 9, integrated into Task 8)\n\n---\n\n## 2. Technical Approach by Task\n\n### Task 1: Initialize React + TypeScript + Vite Project with Tailwind CSS\n\n**Approach:**\n```bash\n# Use Vite's React-TS template\nnpm create vite@latest minesweeper -- --template react-ts\ncd minesweeper\nnpm install\n\n# Install Tailwind CSS\nnpm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p\n\n# Install optional utilities\nnpm install clsx\n```\n\n**Project Structure:**\n```\nsrc/\n├── components/       # React components\n│   ├── Grid.tsx\n│   └── Cell.tsx\n├── hooks/           # Custom React hooks\n│   └── useGameState.ts\n├── types/           # TypeScript type definitions\n│   └── game.types.ts\n├── utils/           # Pure game logic functions\n│   ├── gridUtils.ts\n│   ├── mineUtils.ts\n│   └── revealUtils.ts\n└── App.tsx\n```\n\n**Tailwind Configuration:**\n```typescript\n// tailwind.config.js\nexport default {\n  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],\n  theme: {\n    extend: {\n      // Bold design system tokens (prepared for Sprint 3)\n    },\n  },\n}\n```\n\n**Validation:**\n- Run `npm run dev` successfully\n- Verify hot-reload works\n- Test Tailwind utilities render correctly\n- Ensure TypeScript strict mode is enabled in tsconfig.json\n\n---\n\n### Task 2: Define Core Game Types and Data Structures\n\n**Approach:** Create comprehensive TypeScript types in `src/types/game.types.ts`\n\n```typescript\n// Cell status enum\nexport type CellStatus = 'hidden' | 'revealed' | 'flagged';\n\nexport type GameStatus = 'not-started' | 'in-progress' | 'won' | 'lost';\n\n// Individual cell interface\nexport interface Cell {\n  row: number;\n  col: number;\n  hasMine: boolean;\n  adjacentMines: number;\n  status: CellStatus;\n  isTriggeredMine?: boolean; // For showing which mine caused loss\n}\n\n// Grid is 2D array of cells\nexport type Grid = Cell[][];\n\n// Difficulty configurations\nexport type DifficultyLevel = 'beginner' | 'intermediate' | 'expert' | 'custom';\n\nexport interface DifficultyConfig {\n  level: DifficultyLevel;\n  width: number;\n  height: number;\n  mines: number;\n}\n\nexport const DIFFICULTY_PRESETS: Record<Exclude<DifficultyLevel, 'custom'>, DifficultyConfig> = {\n  beginner: { level: 'beginner', width: 9, height: 9, mines: 10 },\n  intermediate: { level: 'intermediate', width: 16, height: 16, mines: 40 },\n  expert: { level: 'expert', width: 30, height: 16, mines: 99 },\n};\n\n// Complete game state\nexport interface GameState {\n  grid: Grid;\n  gameStatus: GameStatus;\n  difficulty: DifficultyConfig;\n  isFirstClick: boolean;\n  revealedCount: number;\n  flagCount: number;\n  elapsedTime: number; // seconds\n  moveCount: number;\n}\n\n// Coordinate type for clarity\nexport interface Coordinate {\n  row: number;\n  col: number;\n}\n```\n\n**Validation:**\n- All types export successfully\n- Can be imported in other files\n- TypeScript compiler validates usage\n- Includes JSDoc comments for clarity\n\n---\n\n### Task 3: Implement Grid Generation and Initialization Logic\n\n**Approach:** Create pure utility function in `src/utils/gridUtils.ts`\n\n```typescript\nimport { Cell, Grid, DifficultyConfig } from '../types/game.types';\n\nexport function createEmptyGrid(config: DifficultyConfig): Grid {\n  const { width, height } = config;\n  const grid: Grid = [];\n  \n  for (let row = 0; row < height; row++) {\n    const gridRow: Cell[] = [];\n    for (let col = 0; col < width; col++) {\n      gridRow.push({\n        row,\n        col,\n        hasMine: false,\n        adjacentMines: 0,\n        status: 'hidden',\n      });\n    }\n    grid.push(gridRow);\n  }\n  \n  return grid;\n}\n\nexport function getCell(grid: Grid, row: number, col: number): Cell | null {\n  if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length) {\n    return null;\n  }\n  return grid[row][col];\n}\n\nexport function getNeighbors(grid: Grid, row: number, col: number): Cell[] {\n  const neighbors: Cell[] = [];\n  const directions = [\n    [-1, -1], [-1, 0], [-1, 1],\n    [0, -1],           [0, 1],\n    [1, -1],  [1, 0],  [1, 1],\n  ];\n  \n  for (const [dRow, dCol] of directions) {\n    const cell = getCell(grid, row + dRow, col + dCol);\n    if (cell) neighbors.push(cell);\n  }\n  \n  return neighbors;\n}\n```\n\n**Testing Strategy:**\n- Write simple test cases or manual verification\n- Verify beginner grid is 9x9 = 81 cells\n- Verify intermediate is 16x16 = 256 cells\n- Verify expert is 30x16 = 480 cells\n- Check boundary cells have correct neighbor counts (3 for corners, 5 for edges, 8 for interior)\n\n---\n\n### Task 4: Implement Safe First-Click Mine Distribution Algorithm\n\n**Approach:** Create mine placement function in `src/utils/mineUtils.ts`\n\n```typescript\nimport { Grid, Coordinate } from '../types/game.types';\nimport { getNeighbors, getCell } from './gridUtils';\n\nexport function distributeMines(\n  grid: Grid,\n  mineCount: number,\n  firstClick: Coordinate\n): Grid {\n  // Create deep copy to avoid mutation\n  const newGrid = grid.map(row => row.map(cell => ({ ...cell })));\n  \n  const height = newGrid.length;\n  const width = newGrid[0].length;\n  const totalCells = height * width;\n  \n  // Get safe zone (first click + neighbors)\n  const safeZone = new Set<string>();\n  safeZone.add(`${firstClick.row},${firstClick.col}`);\n  \n  const neighbors = getNeighbors(newGrid, firstClick.row, firstClick.col);\n  neighbors.forEach(cell => {\n    safeZone.add(`${cell.row},${cell.col}`);\n  });\n  \n  // Generate list of valid positions for mines\n  const validPositions: Coordinate[] = [];\n  for (let row = 0; row < height; row++) {\n    for (let col = 0; col < width; col++) {\n      const key = `${row},${col}`;\n      if (!safeZone.has(key)) {\n        validPositions.push({ row, col });\n      }\n    }\n  }\n  \n  // Validate we have enough valid positions\n  if (validPositions.length < mineCount) {\n    throw new Error('Not enough valid positions for mines');\n  }\n  \n  // Randomly place mines using Fisher-Yates shuffle\n  const shuffled = [...validPositions];\n  for (let i = shuffled.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];\n  }\n  \n  // Place mines in first `mineCount` positions\n  for (let i = 0; i < mineCount; i++) {\n    const { row, col } = shuffled[i];\n    newGrid[row][col].hasMine = true;\n  }\n  \n  return newGrid;\n}\n```\n\n**Testing Strategy:**\n- Verify correct number of mines placed\n- Verify first click cell never has mine\n- Verify all 8 neighbors of first click never have mines\n- Test edge case: first click in corner (only 3 neighbors to protect)\n- Test with multiple random seeds\n\n**Risk Mitigation:**\n- Use immutable grid updates to avoid state corruption\n- Add validation for edge cases (too many mines requested)\n\n---\n\n### Task 5: Implement Adjacent Mine Calculation Logic\n\n**Approach:** Add to `src/utils/mineUtils.ts`\n\n```typescript\nexport function calculateAdjacentMines(grid: Grid): Grid {\n  const newGrid = grid.map(row => row.map(cell => ({ ...cell })));\n  \n  for (let row = 0; row < newGrid.length; row++) {\n    for (let col = 0; col < newGrid[0].length; col++) {\n      const cell = newGrid[row][col];\n      \n      // Skip mine cells\n      if (cell.hasMine) {\n        cell.adjacentMines = 0;\n        continue;\n      }\n      \n      // Count adjacent mines\n      const neighbors = getNeighbors(newGrid, row, col);\n      cell.adjacentMines = neighbors.filter(n => n.hasMine).length;\n    }\n  }\n  \n  return newGrid;\n}\n```\n\n**Integration Point:**\n- This function MUST be called immediately after `distributeMines`\n- Create combined function for convenience:\n\n```typescript\nexport function placeMinesAndCalculate(\n  grid: Grid,\n  mineCount: number,\n  firstClick: Coordinate\n): Grid {\n  const withMines = distributeMines(grid, mineCount, firstClick);\n  return calculateAdjacentMines(withMines);\n}\n```\n\n**Testing Strategy:**\n- Create small test grid with known mine positions\n- Verify corner cells calculate correctly (max 3 neighbors)\n- Verify edge cells calculate correctly (max 5 neighbors)\n- Verify interior cells calculate correctly (max 8 neighbors)\n- Verify cells surrounded by 8 mines show adjacentMines: 8\n\n---\n\n### Task 6: Implement Cell Reveal Mechanics\n\n**Approach:** Create reveal logic in `src/utils/revealUtils.ts`\n\n```typescript\nimport { Grid, Cell, GameStatus, Coordinate } from '../types/game.types';\nimport { getCell } from './gridUtils';\n\nexport interface RevealResult {\n  grid: Grid;\n  gameStatus: GameStatus;\n  revealedCount: number;\n}\n\nexport function revealCell(\n  grid: Grid,\n  coordinate: Coordinate,\n  currentGameStatus: GameStatus\n): RevealResult {\n  // Guards\n  if (currentGameStatus !== 'in-progress') {\n    return { grid, gameStatus: currentGameStatus, revealedCount: 0 };\n  }\n  \n  const cell = getCell(grid, coordinate.row, coordinate.col);\n  \n  if (!cell || cell.status !== 'hidden') {\n    return { grid, gameStatus: currentGameStatus, revealedCount: 0 };\n  }\n  \n  // Create mutable copy\n  const newGrid = grid.map(row => row.map(c => ({ ...c })));\n  const targetCell = newGrid[coordinate.row][coordinate.col];\n  \n  // Reveal the cell\n  targetCell.status = 'revealed';\n  let revealedCount = 1;\n  \n  // Check for mine\n  if (targetCell.hasMine) {\n    targetCell.isTriggeredMine = true;\n    return { \n      grid: newGrid, \n      gameStatus: 'lost',\n      revealedCount \n    };\n  }\n  \n  // Cell revealed successfully\n  return { \n    grid: newGrid, \n    gameStatus: 'in-progress',\n    revealedCount \n  };\n}\n```\n\n**Testing Strategy:**\n- Test revealing hidden cell updates status\n- Test revealing mine triggers loss\n- Test revealing already-revealed cell does nothing\n- Test revealing flagged cell does nothing\n- Test guards prevent reveals when game is over\n\n---\n\n### Task 7: Implement Cascade Reveal Logic for Empty Cells\n\n**Approach:** Enhance `revealUtils.ts` with iterative flood-fill algorithm\n\n```typescript\nexport function revealCellWithCascade(\n  grid: Grid,\n  coordinate: Coordinate,\n  currentGameStatus: GameStatus\n): RevealResult {\n  // Initial reveal\n  const initialResult = revealCell(grid, coordinate, currentGameStatus);\n  \n  // If game ended or cell has adjacent mines, no cascade\n  if (initialResult.gameStatus !== 'in-progress') {\n    return initialResult;\n  }\n  \n  const cell = getCell(initialResult.grid, coordinate.row, coordinate.col);\n  if (!cell || cell.adjacentMines > 0) {\n    return initialResult;\n  }\n  \n  // Cascade reveal using iterative BFS\n  const newGrid = initialResult.grid.map(row => row.map(c => ({ ...c })));\n  let revealedCount = initialResult.revealedCount;\n  \n  const queue: Coordinate[] = [coordinate];\n  const visited = new Set<string>();\n  visited.add(`${coordinate.row},${coordinate.col}`);\n  \n  while (queue.length > 0) {\n    const current = queue.shift()!;\n    const currentCell = getCell(newGrid, current.row, current.col);\n    \n    if (!currentCell) continue;\n    \n    // If this cell has adjacent mines, reveal it and stop cascading from it\n    if (currentCell.adjacentMines > 0) {\n      if (currentCell.status === 'hidden') {\n        currentCell.status = 'revealed';\n        revealedCount++;\n      }\n      continue;\n    }\n    \n    // Empty cell - cascade to neighbors\n    const neighbors = getNeighbors(newGrid, current.row, current.col);\n    \n    for (const neighbor of neighbors) {\n      const key = `${neighbor.row},${neighbor.col}`;\n      \n      if (visited.has(key) || neighbor.status !== 'hidden' || neighbor.hasMine) {\n        continue;\n      }\n      \n      visited.add(key);\n      neighbor.status = 'revealed';\n      revealedCount++;\n      \n      // Add to queue for further cascading\n      queue.push({ row: neighbor.row, col: neighbor.col });\n    }\n  }\n  \n  return {\n    grid: newGrid,\n    gameStatus: 'in-progress',\n    revealedCount\n  };\n}\n```\n\n**Performance Considerations:**\n- Iterative BFS prevents stack overflow on large grids\n- Visited set prevents infinite loops\n- Worst case: O(width × height) for completely empty grid\n- Expert grid (30×16 = 480 cells) should complete in <50ms\n\n**Testing Strategy:**\n- Test single empty cell reveals neighbors\n- Test large empty area reveals entire region\n- Test cascade stops at numbered cells\n- Test performance on expert-sized empty areas\n- Verify no infinite loops or stack overflows\n\n---\n\n### Task 8: Implement Game State Management with React Hooks\n\n**Approach:** Create comprehensive custom hook in `src/hooks/useGameState.ts`\n\n```typescript\nimport { useState, useCallback, useRef } from 'react';\nimport { GameState, DifficultyConfig, Coordinate, GameStatus } from '../types/game.types';\nimport { createEmptyGrid } from '../utils/gridUtils';\nimport { placeMinesAndCalculate } from '../utils/mineUtils';\nimport { revealCellWithCascade } from '../utils/revealUtils';\n\nexport function useGameState(initialDifficulty: DifficultyConfig) {\n  const [gameState, setGameState] = useState<GameState>(() => ({\n    grid: createEmptyGrid(initialDifficulty),\n    gameStatus: 'not-started',\n    difficulty: initialDifficulty,\n    isFirstClick: true,\n    revealedCount: 0,\n    flagCount: 0,\n    elapsedTime: 0,\n    moveCount: 0,\n  }));\n  \n  // Initialize new game\n  const initializeGame = useCallback((difficulty: DifficultyConfig) => {\n    setGameState({\n      grid: createEmptyGrid(difficulty),\n      gameStatus: 'not-started',\n      difficulty,\n      isFirstClick: true,\n      revealedCount: 0,\n      flagCount: 0,\n      elapsedTime: 0,\n      moveCount: 0,\n    });\n  }, []);\n  \n  // Handle cell reveal\n  const handleReveal = useCallback((coordinate: Coordinate) => {\n    setGameState(prev => {\n      let newGrid = prev.grid;\n      let newStatus = prev.gameStatus;\n      \n      // First click: place mines\n      if (prev.isFirstClick) {\n        newGrid = placeMinesAndCalculate(\n          prev.grid,\n          prev.difficulty.mines,\n          coordinate\n        );\n        newStatus = 'in-progress';\n      }\n      \n      // Reveal cell with cascade\n      const result = revealCellWithCascade(newGrid, coordinate, newStatus);\n      \n      const totalSafeCells = \n        prev.difficulty.width * prev.difficulty.height - prev.difficulty.mines;\n      const newRevealedCount = prev.revealedCount + result.revealedCount;\n      \n      // Check win condition\n      let finalStatus = result.gameStatus;\n      if (newRevealedCount === totalSafeCells && finalStatus === 'in-progress') {\n        finalStatus = 'won';\n      }\n      \n      return {\n        ...prev,\n        grid: result.grid,\n        gameStatus: finalStatus,\n        isFirstClick: false,\n        revealedCount: newRevealedCount,\n        moveCount: prev.moveCount + 1,\n      };\n    });\n  }, []);\n  \n  return {\n    gameState,\n    initializeGame,\n    revealCell: handleReveal,\n  };\n}\n```\n\n**Integration Point:**\n- This hook bridges pure utility functions and React UI\n- Manages all game state in a single source of truth\n- Triggers mine placement on first click\n- Detects win/loss conditions automatically\n\n**Testing Strategy:**\n- Test first click places mines correctly\n- Test subsequent clicks reveal cells\n- Test game status transitions (not-started → in-progress → won/lost)\n- Test state updates trigger re-renders\n\n---\n\n### Task 9: Create Basic Game Grid UI Component\n\n**Approach:** Create minimal but functional UI in `src/components/Grid.tsx` and `Cell.tsx`\n\n```typescript\n// src/components/Cell.tsx\nimport { Cell as CellType } from '../types/game.types';\n\ninterface CellProps {\n  cell: CellType;\n  onClick: () => void;\n}\n\nexport function Cell({ cell, onClick }: CellProps) {\n  const getContent = () => {\n    if (cell.status === 'hidden') return '';\n    if (cell.status === 'flagged') return '🚩';\n    if (cell.hasMine) return '💣';\n    if (cell.adjacentMines > 0) return cell.adjacentMines;\n    return '';\n  };\n  \n  const getStyles = () => {\n    const base = 'w-8 h-8 border border-gray-400 flex items-center justify-center text-sm font-bold';\n    \n    if (cell.status === 'hidden') {\n      return `${base} bg-gray-300 cursor-pointer hover:bg-gray-200`;\n    }\n    \n    if (cell.hasMine && cell.isTriggeredMine) {\n      return `${base} bg-red-600 text-white`;\n    }\n    \n    if (cell.hasMine) {\n      return `${base} bg-red-400`;\n    }\n    \n    return `${base} bg-gray-100`;\n  };\n  \n  return (\n    <button\n      className={getStyles()}\n      onClick={onClick}\n      disabled={cell.status === 'revealed'}\n    >\n      {getContent()}\n    </button>\n  );\n}\n```\n\n```typescript\n// src/components/Grid.tsx\nimport { Grid as GridType } from '../types/game.types';\nimport { Cell } from './Cell';\n\ninterface GridProps {\n  grid: GridType;\n  onCellClick: (row: number, col: number) => void;\n}\n\nexport function Grid({ grid, onCellClick }: GridProps) {\n  return (\n    <div className=\"inline-grid gap-0\" style={{\n      gridTemplateColumns: `repeat(${grid[0].length}, minmax(0, 1fr))`\n    }}>\n      {grid.flat().map(cell => (\n        <Cell\n          key={`${cell.row}-${cell.col}`}\n          cell={cell}\n          onClick={() => onCellClick(cell.row, cell.col)}\n        />\n      ))}\n    </div>\n  );\n}\n```\n\n```typescript\n// src/App.tsx\nimport { DIFFICULTY_PRESETS } from './types/game.types';\nimport { useGameState } from './hooks/useGameState';\nimport { Grid } from './components/Grid';\n\nfunction App() {\n  const { gameState, revealCell, initializeGame } = useGameState(\n    DIFFICULTY_PRESETS.beginner\n  );\n  \n  return (\n    <div className=\"min-h-screen bg-gray-50 flex flex-col items-center justify-center p-8\">\n      <h1 className=\"text-4xl font-bold mb-8\">Minesweeper</h1>\n      \n      <div className=\"mb-4\">\n        <p>Status: {gameState.gameStatus}</p>\n        <p>Moves: {gameState.moveCount}</p>\n        <button\n          onClick={() => initializeGame(DIFFICULTY_PRESETS.beginner)}\n          className=\"mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600\"\n        >\n          New Game\n        </button>\n      </div>\n      \n      <Grid\n        grid={gameState.grid}\n        onCellClick={(row, col) => revealCell({ row, col })}\n      />\n    </div>\n  );\n}\n\nexport default App;\n```\n\n**Styling Strategy:**\n- Minimal Tailwind classes for Sprint 1\n- Bold design system will be applied in Sprint 3\n- Focus on functionality over aesthetics\n\n**Validation:**\n- Grid renders with correct dimensions\n- Cells are clickable\n- Cell states display correctly (hidden, revealed, numbered, mine)\n- Game status updates in UI\n\n---\n\n### Task 10: Implement Win/Loss Condition Detection and Game Status Updates\n\n**Approach:** Win detection is already integrated in Task 8's `handleReveal`. Enhance loss handling:\n\n```typescript\n// Add to revealUtils.ts\nexport function revealAllMines(grid: Grid): Grid {\n  return grid.map(row =>\n    row.map(cell => {\n      if (cell.hasMine && cell.status !== 'revealed') {\n        return { ...cell, status: 'revealed' as const };\n      }\n      return cell;\n    })\n  );\n}\n```\n\n```typescript\n// Update Task 8's handleReveal to reveal all mines on loss\nconst handleReveal = useCallback((coordinate: Coordinate) => {\n  setGameState(prev => {\n    // ... existing code ...\n    \n    // After getting result from revealCellWithCascade:\n    let finalGrid = result.grid;\n    if (result.gameStatus === 'lost') {\n      finalGrid = revealAllMines(result.grid);\n    }\n    \n    return {\n      ...prev,\n      grid: finalGrid,\n      gameStatus: finalStatus,\n      // ... rest of state\n    };\n  });\n}, []);\n```\n\n**Win Condition Logic:**\n```typescript\n// Already implemented in Task 8\nconst totalSafeCells = width * height - mineCount;\nif (revealedCount === totalSafeCells) {\n  gameStatus = 'won';\n}\n```\n\n**Loss Condition Logic:**\n```typescript\n// Already implemented in Task 6\nif (revealedCell.hasMine) {\n  gameStatus = 'lost';\n  revealAllMines();\n}\n```\n\n**Validation:**\n- Test win by revealing all safe cells\n- Test loss by clicking mine\n- Verify all mines reveal on loss\n- Verify triggered mine is visually distinct\n- Verify no further clicks work after game ends\n\n---\n\n## 3. Risk Assessment & Mitigation\n\n### High-Priority Risks\n\n| Risk | Probability | Impact | Mitigation Strategy |\n|------|------------|--------|---------------------|\n| **Cascade algorithm stack overflow on large grids** | Medium | High | Use iterative BFS instead of recursion; implement visited tracking |\n| **State mutation bugs causing UI inconsistencies** | Medium | High | Use immutable updates everywhere; consider Immer library if issues persist |\n| **First-click mine placement fails edge cases** | Low | High | Extensive testing of corner/edge first clicks; validate safe zone calculation |\n| **TypeScript configuration issues blocking development** | Low | Medium | Use strict mode from start; verify tsconfig settings match Vite template |\n\n### Medium-Priority Risks\n\n| Risk | Probability | Impact | Mitigation Strategy |\n|------|------------|--------|---------------------|\n| **Performance issues on expert grid (480 cells)** | Medium | Medium | Profile cascade algorithm; optimize rendering with React.memo if needed |\n| **Tailwind CSS not purging correctly** | Low | Low | Verify content paths in tailwind.config.js |\n| **Grid layout breaks on different screen sizes** | Medium | Low | Defer responsive design to Sprint 5; focus on 1920x1080 desktop for Sprint 1 |\n\n---\n\n## 4. Resource Planning\n\n### Complexity Estimates (T-Shirt Sizing)\n\n| Task | Complexity | Estimated Time | Skills Required |\n|------|-----------|----------------|-----------------|\n| Task 1 | S | 0.5-1h | Node.js, npm, basic config |\n| Task 2 | S | 0.5-1h | TypeScript, interface design |\n| Task 3 | S | 1-1.5h | TypeScript, algorithms |\n| Task 4 | M | 1.5-2h | Algorithms, random distribution, edge cases |\n| Task 5 | S | 0.5-1h | Algorithms, grid traversal |\n| Task 6 | M | 1.5-2h | Game logic, state management |\n| Task 7 | L | 2-3h | Algorithms (BFS/DFS), performance optimization |\n| Task 8 | L | 2-3h | React hooks, state management, integration |\n| Task 9 | M | 1.5-2h | React components, Tailwind CSS |\n| Task 10 | S | 0.5-1h | Game logic integration |\n\n**Total Estimated Time: 12-17 hours**\n\n### Resource Allocation Recommendation\n\n**Solo Developer:**\n- Complete over 2-3 days (4-6 hours/day)\n- Focus on one phase per session to maintain context\n\n**Team of 2:**\n- Developer 1: Tasks 1-2 → Tasks 3-5 → Task 8\n- Developer 2: (Waits) → Tasks 6-7 → Tasks 9-10\n- Complete in 1-2 days with pair programming on Task 8\n\n---\n\n## 5. Integration Points\n\n### Critical Integration Checkpoints\n\n**Checkpoint 1: Type System Validation (After Task 2)**\n- All types compile without errors\n- Types can be imported across modules\n- TSConfig strict mode passes\n\n**Checkpoint 2: Core Logic Integration (After Task 5)**\n- Grid generation → Mine placement → Adjacent calculation pipeline works\n- Manual testing with console.log to verify mine distribution\n- Create test grid fixture for use in subsequent tasks\n\n**Checkpoint 3: Reveal Logic Integration (After Task 7)**\n- Single cell reveal works correctly\n- Cascade reveal handles empty cells\n- Performance is acceptable (<100ms for expert grid cascade)\n\n**Checkpoint 4: React Integration (After Task 8)**\n- Pure functions integrate smoothly with React hooks\n- State updates trigger re-renders correctly\n- First-click mine placement works in UI\n\n**Checkpoint 5: Complete Game Loop (After Task 10)**\n- Full gameplay loop works: start → click → cascade → win/loss detection\n- Can play complete game from start to finish\n- All game states display correctly in UI\n\n### Data Flow Diagram\n\n```\nUser Click\n    ↓\nGrid Component onClick\n    ↓\nuseGameState.handleReveal(coordinate)\n    ↓\n[If first click] → placeMinesAndCalculate()\n    ↓\nrevealCellWithCascade()\n    ↓\n[If cell empty] → BFS cascade reveal\n    ↓\nCheck win condition (revealedCount === totalSafeCells)\n    ↓\nUpdate gameState\n    ↓\nReact re-render → UI updates\n```\n\n---\n\n## 6. Quality Gates\n\n### Code Quality Standards\n\n**TypeScript:**\n- ✅ No `any` types allowed (except unavoidable cases with explicit comment)\n- ✅ Strict mode enabled\n- ✅ All functions have return type annotations\n- ✅ Interfaces over types where appropriate\n\n**React:**\n- ✅ Functional components only\n- ✅ Proper dependency arrays in hooks\n- ✅ No inline object/function creation in render (use useCallback/useMemo)\n- ✅ Key props on list items\n\n**Code Organization:**\n- ✅ Pure functions in `utils/` (no React dependencies)\n- ✅ React-specific logic in `hooks/` and `components/`\n- ✅ Types in dedicated `types/` directory\n- ✅ One component per file\n\n### Testing Checklist (Manual for Sprint 1)\n\n**Task 1-2: Setup Validation**\n- [ ] `npm run dev` starts server\n- [ ] No TypeScript errors\n- [ ] Tailwind classes apply correctly\n- [ ] Hot reload works\n\n**Task 3-5: Grid Logic Validation**\n- [ ] Beginner grid: 9×9 = 81 cells\n- [ ] Intermediate grid: 16×16 = 256 cells  \n- [ ] Expert grid: 30×16 = 480 cells\n- [ ] Mines placed correctly (count matches difficulty)\n- [ ] First-click cell never has mine\n- [ ] First-click neighbors (up to 8) never have mines\n- [ ] Adjacent mine counts accurate (spot check multiple cells)\n\n**Task 6-7: Reveal Logic Validation**\n- [ ] Clicking hidden cell reveals it\n- [ ] Clicking mine triggers loss\n- [ ] Clicking empty cell triggers cascade\n- [ ] Cascade reveals connected empty cells\n- [ ] Cascade stops at numbered boundary cells\n- [ ] Cascade doesn't hang or cause performance issues\n\n**Task 8-10: Full Game Validation**\n- [ ] First click places mines\n- [ ] First click never triggers loss\n- [ ] Game status: not-started → in-progress on first click\n- [ ] Revealing all safe cells triggers win\n- [ ] Clicking mine triggers loss and reveals all mines\n- [ ] New Game button resets properly\n- [ ] Move counter increments correctly\n- [ ] No crashes or console errors during gameplay\n\n### Performance Benchmarks\n\n**Target Performance (Sprint 1):**\n- Grid generation: < 10ms for any difficulty\n- Mine placement: < 20ms for expert (99 mines)\n- Single cell reveal: < 5ms\n- Full-grid cascade (worst case): < 100ms on expert grid\n- UI re-render: < 16ms (60fps) for any state update\n\n**Measurement Approach:**\n```typescript\nconsole.time('operation');\n// ... operation ...\nconsole.timeEnd('operation');\n```\n\n---\n\n## 7. Rollback Strategy\n\n### Failure Scenarios & Recovery\n\n**Scenario 1: Task 4 (Mine Distribution) Produces Unsolvable Boards**\n- **Symptom:** Players report situations where first click is in area with no logical moves\n- **Impact:** Low (gameplay works, just less fun)\n- **Rollback:** Simplify to basic random placement without safe zone validation\n- **Recovery:** Address in Sprint 6 Task 3 (enhanced algorithm)\n\n**Scenario 2: Task 7 (Cascade) Causes Performance Issues**\n- **Symptom:** Game freezes when clicking large empty areas\n- **Impact:** High (game unplayable on expert difficulty)\n- **Rollback:** Disable cascade; only reveal single cells\n- **Recovery:** Optimize algorithm with profiling; add cascade depth limit\n\n**Scenario 3: Task 8 (React Hook) State Corruption**\n- **Symptom:** UI shows incorrect cell states; clicks don't work\n- **Impact:** Critical (game broken)\n- **Rollback:** Revert to previous working version of useGameState\n- **Recovery:** Review immutability practices; add state validation logging\n\n**Scenario 4: Tailwind CSS Build Issues**\n- **Symptom:** Styles don't apply; build fails\n- **Impact:** Medium (functionality works, ugly UI)\n- **Rollback:** Use inline styles temporarily\n- **Recovery:** Debug tailwind.config.js and postcss.config.js\n\n### Git Strategy\n\n**Branching:**\n```\nmain (stable)\n  ↓\nsprint-1 (integration branch)\n  ↓\nfeature/task-1-project-setup\nfeature/task-2-types\nfeature/task-3-grid-generation\n... etc\n```\n\n**Commit Points (Atomic Commits):**\n- After each completed task\n- After each integration checkpoint\n- Before attempting risky refactors\n\n**Rollback Commands:**\n```bash\n# Rollback to specific task\ngit checkout feature/task-N\n\n# Rollback entire sprint\ngit revert <sprint-start-commit>..<HEAD>\n\n# Emergency nuclear option\ngit reset --hard <last-known-good-commit>\n```\n\n---\n\n## 8. Definition of Done\n\n### Sprint 1 Completion Criteria\n\n**Functional Requirements:**\n- ✅ Game can be started with beginner difficulty\n- ✅ Player can click cells to reveal them\n- ✅ First click never reveals a mine\n- ✅ Clicking empty cell cascades to reveal connected empty area\n- ✅ Numbers display correctly showing adjacent mine count\n- ✅ Clicking mine ends game (loss)\n- ✅ Revealing all safe cells ends game (win)\n- ✅ Game can be restarted\n- ✅ Move counter tracks click actions\n\n**Technical Requirements:**\n- ✅ All TypeScript strict mode errors resolved\n- ✅ No console errors during gameplay\n- ✅ Project runs with `npm run dev`\n- ✅ Code follows project structure (`types/`, `utils/`, `hooks/`, `components/`)\n- ✅ Pure functions separated from React components\n- ✅ Immutable state updates throughout\n\n**Quality Requirements:**\n- ✅ All 10 tasks completed\n- ✅ All integration checkpoints passed\n- ✅ Manual testing checklist 100% complete\n- ✅ Performance benchmarks met\n- ✅ Code reviewed (if team) or self-reviewed (if solo)\n\n**Documentation:**\n- ✅ README updated with setup instructions\n- ✅ Key functions have JSDoc comments\n- ✅ Type definitions are clear and self-documenting\n- ✅ Known limitations documented (e.g., no mobile support yet, basic UI)\n\n---\n\n## 9. Handoff to Implementation\n\n### Pre-Implementation Checklist\n\n**Before Starting Task 1:**\n- [ ] Development machine has Node.js 18+ installed\n- [ ] npm or yarn is available\n- [ ] Code editor with TypeScript support ready (VS Code recommended)\n- [ ] Git repository initialized\n- [ ] This execution plan document saved and accessible\n\n**Recommended Execution Flow:**\n\n1. **Day 1 (4-6 hours):**\n   - Complete Tasks 1-2 (setup foundation)\n   - Complete Tasks 3-5 (core logic)\n   - Reach Integration Checkpoint 2\n\n2. **Day 2 (4-6 hours):**\n   - Complete Tasks 6-7 (reveal logic)\n   - Reach Integration Checkpoint 3\n   - Begin Task 8 (React integration)\n\n3. **Day 3 (4-5 hours):**\n   - Complete Task 8\n   - Complete Tasks 9-10\n   - Full testing and validation\n   - Reach Definition of Done\n\n### Communication Checkpoints\n\n**For Solo Developer:**\n- Document decisions in commit messages\n- Note any deviations from plan in code comments\n- Update this document with actual vs estimated times\n\n**For Team:**\n- Daily standup to sync progress\n- Pair programming session for Task 8 integration\n- Code review before merging to sprint-1 branch\n\n---\n\n## 10. Success Metrics\n\n### Sprint Objectives Achievement\n\n**Primary Objective: Playable Core Game**\n- ✅ Metric: Can complete a full game (win or loss) without bugs\n- ✅ Target: 100% success rate across 10 test games\n\n**Secondary Objective: Solid Architecture**\n- ✅ Metric: Pure functions testable without React environment\n- ✅ Target: 80%+ of game logic in pure TypeScript functions\n\n**Tertiary Objective: Performance Foundation**\n- ✅ Metric: Cascade reveal completes in <100ms on expert grid\n- ✅ Target: Achieved in 90%+ of test cases\n\n### Readiness for Sprint 2\n\n**Sprint 1 sets up:**\n- ✅ Core game mechanics (reveal, cascade, win/loss) → Sprint 2 adds flags\n- ✅ Basic state management → Sprint 2 adds Zustand/Context\n- ✅ Simple UI → Sprint 2 adds dual input methods\n- ✅ Type system → Sprint 2 extends for timer, statistics\n\n**Blockers for Sprint 2:**\n- ❌ If cascade doesn't work → Sprint 2 cannot add complexity\n- ❌ If state management is buggy → Sprint 2 cannot add more state\n- ❌ If TypeScript setup is broken → Sprint 2 cannot build on it\n\n---\n\n## Appendix A: Quick Reference Commands\n\n```bash\n# Initial Setup (Task 1)\nnpm create vite@latest minesweeper -- --template react-ts\ncd minesweeper\nnpm install\nnpm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p\n\n# Development\nnpm run dev          # Start dev server (http://localhost:5173)\nnpm run build        # Production build (for verification)\nnpm run preview      # Preview production build\n\n# Git Workflow\ngit checkout -b sprint-1\ngit checkout -b feature/task-N\ngit add .\ngit commit -m \"feat: complete task N - [description]\"\ngit checkout sprint-1\ngit merge feature/task-N\n```\n\n---\n\n## Appendix B: Tailwind Configuration Template\n\n```typescript\n// tailwind.config.js\n/** @type {import('tailwindcss').Config} */\nexport default {\n  content: [\n    \"./index.html\",\n    \"./src/**/*.{js,ts,jsx,tsx}\",\n  ],\n  theme: {\n    extend: {\n      // Sprint 3 will add bold design system tokens here\n    },\n  },\n  plugins: [],\n}\n```\n\n```css\n/* src/index.css */\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n```\n\n---\n\n## Appendix C: Known Limitations (Sprint 1 Scope)\n\n**Intentionally NOT Included in Sprint 1:**\n- ❌ Flag placement (Sprint 2)\n- ❌ Timer functionality (Sprint 3)\n- ❌ Statistics tracking beyond move count (Sprint 3)\n- ❌ Multiple difficulty selection (Sprint 4)\n- ❌ Responsive design (Sprint 5)\n- ❌ Touch controls (Sprint 5)\n- ❌ LocalStorage persistence (Sprint 6)\n- ❌ Bold design system styling (Sprint 3)\n\n**Sprint 1 Delivers:**\n- ✅ Core playable game on desktop\n- ✅ Click to reveal only (no right-click flags)\n- ✅ Basic beginner difficulty (hardcoded)\n- ✅ Minimal functional UI\n- ✅ Win/loss detection\n- ✅ Move counter\n\n---\n\n**End of Sprint 1 Execution Plan**\n\nThis plan provides a clear, actionable roadmap for implementing Sprint 1. Follow the task order, validate at each checkpoint, and you'll have a solid foundation for the remaining sprints.",
+      "sprintId": "sprint_1770111649899_1"
+    },
+    {
+      "id": "log_1770112392326_toabzcwg5",
+      "timestamp": "2026-02-03T09:53:12.326Z",
+      "type": "success",
+      "message": "Claude Code Session Completed",
+      "details": "Session ID: sprint-execution-session\nDuration: 179780ms\nMessages: 6",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112392326_dr0id9tn0",
+      "timestamp": "2026-02-03T09:53:12.326Z",
+      "type": "success",
+      "message": "Session Result",
+      "details": "Now I have a complete understanding of the project requirements. Let me create a comprehensive execution plan for Sprint 1.\n\n---\n\n# Sprint 1 Execution Plan: Project Setup & Core Game Logic\n\n## Executi... | Cost: $0.2936 | Duration: 176.5s",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112392326_lyv9iwclg",
+      "timestamp": "2026-02-03T09:53:12.326Z",
+      "type": "success",
+      "message": "Sprint completed",
+      "details": "Now I have a complete understanding of the project requirements. Let me create a comprehensive execution plan for Sprint 1.\n\n---\n\n# Sprint 1 Execution Plan: Project Setup & Core Game Logic\n\n## Executive Summary\n\nSprint 1 establishes the foundation for a modern, responsive Minesweeper game using React, TypeScript, Vite, and Tailwind CSS. This sprint focuses on core game mechanics and infrastructure without UI polish, setting up robust architecture for subsequent sprints.\n\n**Key Deliverables:**\n- Fully configured development environment\n- Type-safe game data structures\n- Complete core game logic (grid generation, mine placement, reveal mechanics, cascade algorithm)\n- Basic playable UI\n- Win/loss detection\n\n---\n\n## 1. Dependency Analysis & Execution Order\n\n### Critical Path (Sequential Dependencies)\n\n```\nTask 1 (Project Setup)\n  ↓\nTask 2 (Type Definitions)\n  ↓\nTask 3 (Grid Generation)\n  ↓\nTask 4 (Mine Distribution) → Task 5 (Adjacent Mine Calculation)\n  ↓                              ↓\nTask 6 (Cell Reveal) ← ← ← ← ← ←\n  ↓\nTask 7 (Cascade Reveal)\n  ↓\nTask 8 (Game State Hook)\n  ↓\nTask 9 (Grid UI Component) → Task 10 (Win/Loss Detection)\n```\n\n### Execution Phases\n\n**Phase 1: Foundation (Tasks 1-2)** - *Estimated: 1-2 hours*\n- Task 1: Project initialization (MUST complete first)\n- Task 2: Type definitions (blocks all subsequent tasks)\n\n**Phase 2: Core Logic Layer (Tasks 3-5)** - *Estimated: 3-4 hours*\n- Task 3: Grid generation (sequential)\n- Task 4 & 5: Mine distribution and calculation (can be developed concurrently after Task 3, tested together)\n\n**Phase 3: Interaction Layer (Tasks 6-7)** - *Estimated: 3-4 hours*\n- Task 6: Cell reveal mechanics (depends on Tasks 3-5)\n- Task 7: Cascade reveal (depends on Task 6)\n\n**Phase 4: Integration Layer (Tasks 8-10)** - *Estimated: 3-4 hours*\n- Task 8: React state management hook (integrates Tasks 3-7)\n- Task 9: Grid UI component (depends on Task 8)\n- Task 10: Win/loss detection (can be developed parallel to Task 9, integrated into Task 8)\n\n---\n\n## 2. Technical Approach by Task\n\n### Task 1: Initialize React + TypeScript + Vite Project with Tailwind CSS\n\n**Approach:**\n```bash\n# Use Vite's React-TS template\nnpm create vite@latest minesweeper -- --template react-ts\ncd minesweeper\nnpm install\n\n# Install Tailwind CSS\nnpm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p\n\n# Install optional utilities\nnpm install clsx\n```\n\n**Project Structure:**\n```\nsrc/\n├── components/       # React components\n│   ├── Grid.tsx\n│   └── Cell.tsx\n├── hooks/           # Custom React hooks\n│   └── useGameState.ts\n├── types/           # TypeScript type definitions\n│   └── game.types.ts\n├── utils/           # Pure game logic functions\n│   ├── gridUtils.ts\n│   ├── mineUtils.ts\n│   └── revealUtils.ts\n└── App.tsx\n```\n\n**Tailwind Configuration:**\n```typescript\n// tailwind.config.js\nexport default {\n  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],\n  theme: {\n    extend: {\n      // Bold design system tokens (prepared for Sprint 3)\n    },\n  },\n}\n```\n\n**Validation:**\n- Run `npm run dev` successfully\n- Verify hot-reload works\n- Test Tailwind utilities render correctly\n- Ensure TypeScript strict mode is enabled in tsconfig.json\n\n---\n\n### Task 2: Define Core Game Types and Data Structures\n\n**Approach:** Create comprehensive TypeScript types in `src/types/game.types.ts`\n\n```typescript\n// Cell status enum\nexport type CellStatus = 'hidden' | 'revealed' | 'flagged';\n\nexport type GameStatus = 'not-started' | 'in-progress' | 'won' | 'lost';\n\n// Individual cell interface\nexport interface Cell {\n  row: number;\n  col: number;\n  hasMine: boolean;\n  adjacentMines: number;\n  status: CellStatus;\n  isTriggeredMine?: boolean; // For showing which mine caused loss\n}\n\n// Grid is 2D array of cells\nexport type Grid = Cell[][];\n\n// Difficulty configurations\nexport type DifficultyLevel = 'beginner' | 'intermediate' | 'expert' | 'custom';\n\nexport interface DifficultyConfig {\n  level: DifficultyLevel;\n  width: number;\n  height: number;\n  mines: number;\n}\n\nexport const DIFFICULTY_PRESETS: Record<Exclude<DifficultyLevel, 'custom'>, DifficultyConfig> = {\n  beginner: { level: 'beginner', width: 9, height: 9, mines: 10 },\n  intermediate: { level: 'intermediate', width: 16, height: 16, mines: 40 },\n  expert: { level: 'expert', width: 30, height: 16, mines: 99 },\n};\n\n// Complete game state\nexport interface GameState {\n  grid: Grid;\n  gameStatus: GameStatus;\n  difficulty: DifficultyConfig;\n  isFirstClick: boolean;\n  revealedCount: number;\n  flagCount: number;\n  elapsedTime: number; // seconds\n  moveCount: number;\n}\n\n// Coordinate type for clarity\nexport interface Coordinate {\n  row: number;\n  col: number;\n}\n```\n\n**Validation:**\n- All types export successfully\n- Can be imported in other files\n- TypeScript compiler validates usage\n- Includes JSDoc comments for clarity\n\n---\n\n### Task 3: Implement Grid Generation and Initialization Logic\n\n**Approach:** Create pure utility function in `src/utils/gridUtils.ts`\n\n```typescript\nimport { Cell, Grid, DifficultyConfig } from '../types/game.types';\n\nexport function createEmptyGrid(config: DifficultyConfig): Grid {\n  const { width, height } = config;\n  const grid: Grid = [];\n  \n  for (let row = 0; row < height; row++) {\n    const gridRow: Cell[] = [];\n    for (let col = 0; col < width; col++) {\n      gridRow.push({\n        row,\n        col,\n        hasMine: false,\n        adjacentMines: 0,\n        status: 'hidden',\n      });\n    }\n    grid.push(gridRow);\n  }\n  \n  return grid;\n}\n\nexport function getCell(grid: Grid, row: number, col: number): Cell | null {\n  if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length) {\n    return null;\n  }\n  return grid[row][col];\n}\n\nexport function getNeighbors(grid: Grid, row: number, col: number): Cell[] {\n  const neighbors: Cell[] = [];\n  const directions = [\n    [-1, -1], [-1, 0], [-1, 1],\n    [0, -1],           [0, 1],\n    [1, -1],  [1, 0],  [1, 1],\n  ];\n  \n  for (const [dRow, dCol] of directions) {\n    const cell = getCell(grid, row + dRow, col + dCol);\n    if (cell) neighbors.push(cell);\n  }\n  \n  return neighbors;\n}\n```\n\n**Testing Strategy:**\n- Write simple test cases or manual verification\n- Verify beginner grid is 9x9 = 81 cells\n- Verify intermediate is 16x16 = 256 cells\n- Verify expert is 30x16 = 480 cells\n- Check boundary cells have correct neighbor counts (3 for corners, 5 for edges, 8 for interior)\n\n---\n\n### Task 4: Implement Safe First-Click Mine Distribution Algorithm\n\n**Approach:** Create mine placement function in `src/utils/mineUtils.ts`\n\n```typescript\nimport { Grid, Coordinate } from '../types/game.types';\nimport { getNeighbors, getCell } from './gridUtils';\n\nexport function distributeMines(\n  grid: Grid,\n  mineCount: number,\n  firstClick: Coordinate\n): Grid {\n  // Create deep copy to avoid mutation\n  const newGrid = grid.map(row => row.map(cell => ({ ...cell })));\n  \n  const height = newGrid.length;\n  const width = newGrid[0].length;\n  const totalCells = height * width;\n  \n  // Get safe zone (first click + neighbors)\n  const safeZone = new Set<string>();\n  safeZone.add(`${firstClick.row},${firstClick.col}`);\n  \n  const neighbors = getNeighbors(newGrid, firstClick.row, firstClick.col);\n  neighbors.forEach(cell => {\n    safeZone.add(`${cell.row},${cell.col}`);\n  });\n  \n  // Generate list of valid positions for mines\n  const validPositions: Coordinate[] = [];\n  for (let row = 0; row < height; row++) {\n    for (let col = 0; col < width; col++) {\n      const key = `${row},${col}`;\n      if (!safeZone.has(key)) {\n        validPositions.push({ row, col });\n      }\n    }\n  }\n  \n  // Validate we have enough valid positions\n  if (validPositions.length < mineCount) {\n    throw new Error('Not enough valid positions for mines');\n  }\n  \n  // Randomly place mines using Fisher-Yates shuffle\n  const shuffled = [...validPositions];\n  for (let i = shuffled.length - 1; i > 0; i--) {\n    const j = Math.floor(Math.random() * (i + 1));\n    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];\n  }\n  \n  // Place mines in first `mineCount` positions\n  for (let i = 0; i < mineCount; i++) {\n    const { row, col } = shuffled[i];\n    newGrid[row][col].hasMine = true;\n  }\n  \n  return newGrid;\n}\n```\n\n**Testing Strategy:**\n- Verify correct number of mines placed\n- Verify first click cell never has mine\n- Verify all 8 neighbors of first click never have mines\n- Test edge case: first click in corner (only 3 neighbors to protect)\n- Test with multiple random seeds\n\n**Risk Mitigation:**\n- Use immutable grid updates to avoid state corruption\n- Add validation for edge cases (too many mines requested)\n\n---\n\n### Task 5: Implement Adjacent Mine Calculation Logic\n\n**Approach:** Add to `src/utils/mineUtils.ts`\n\n```typescript\nexport function calculateAdjacentMines(grid: Grid): Grid {\n  const newGrid = grid.map(row => row.map(cell => ({ ...cell })));\n  \n  for (let row = 0; row < newGrid.length; row++) {\n    for (let col = 0; col < newGrid[0].length; col++) {\n      const cell = newGrid[row][col];\n      \n      // Skip mine cells\n      if (cell.hasMine) {\n        cell.adjacentMines = 0;\n        continue;\n      }\n      \n      // Count adjacent mines\n      const neighbors = getNeighbors(newGrid, row, col);\n      cell.adjacentMines = neighbors.filter(n => n.hasMine).length;\n    }\n  }\n  \n  return newGrid;\n}\n```\n\n**Integration Point:**\n- This function MUST be called immediately after `distributeMines`\n- Create combined function for convenience:\n\n```typescript\nexport function placeMinesAndCalculate(\n  grid: Grid,\n  mineCount: number,\n  firstClick: Coordinate\n): Grid {\n  const withMines = distributeMines(grid, mineCount, firstClick);\n  return calculateAdjacentMines(withMines);\n}\n```\n\n**Testing Strategy:**\n- Create small test grid with known mine positions\n- Verify corner cells calculate correctly (max 3 neighbors)\n- Verify edge cells calculate correctly (max 5 neighbors)\n- Verify interior cells calculate correctly (max 8 neighbors)\n- Verify cells surrounded by 8 mines show adjacentMines: 8\n\n---\n\n### Task 6: Implement Cell Reveal Mechanics\n\n**Approach:** Create reveal logic in `src/utils/revealUtils.ts`\n\n```typescript\nimport { Grid, Cell, GameStatus, Coordinate } from '../types/game.types';\nimport { getCell } from './gridUtils';\n\nexport interface RevealResult {\n  grid: Grid;\n  gameStatus: GameStatus;\n  revealedCount: number;\n}\n\nexport function revealCell(\n  grid: Grid,\n  coordinate: Coordinate,\n  currentGameStatus: GameStatus\n): RevealResult {\n  // Guards\n  if (currentGameStatus !== 'in-progress') {\n    return { grid, gameStatus: currentGameStatus, revealedCount: 0 };\n  }\n  \n  const cell = getCell(grid, coordinate.row, coordinate.col);\n  \n  if (!cell || cell.status !== 'hidden') {\n    return { grid, gameStatus: currentGameStatus, revealedCount: 0 };\n  }\n  \n  // Create mutable copy\n  const newGrid = grid.map(row => row.map(c => ({ ...c })));\n  const targetCell = newGrid[coordinate.row][coordinate.col];\n  \n  // Reveal the cell\n  targetCell.status = 'revealed';\n  let revealedCount = 1;\n  \n  // Check for mine\n  if (targetCell.hasMine) {\n    targetCell.isTriggeredMine = true;\n    return { \n      grid: newGrid, \n      gameStatus: 'lost',\n      revealedCount \n    };\n  }\n  \n  // Cell revealed successfully\n  return { \n    grid: newGrid, \n    gameStatus: 'in-progress',\n    revealedCount \n  };\n}\n```\n\n**Testing Strategy:**\n- Test revealing hidden cell updates status\n- Test revealing mine triggers loss\n- Test revealing already-revealed cell does nothing\n- Test revealing flagged cell does nothing\n- Test guards prevent reveals when game is over\n\n---\n\n### Task 7: Implement Cascade Reveal Logic for Empty Cells\n\n**Approach:** Enhance `revealUtils.ts` with iterative flood-fill algorithm\n\n```typescript\nexport function revealCellWithCascade(\n  grid: Grid,\n  coordinate: Coordinate,\n  currentGameStatus: GameStatus\n): RevealResult {\n  // Initial reveal\n  const initialResult = revealCell(grid, coordinate, currentGameStatus);\n  \n  // If game ended or cell has adjacent mines, no cascade\n  if (initialResult.gameStatus !== 'in-progress') {\n    return initialResult;\n  }\n  \n  const cell = getCell(initialResult.grid, coordinate.row, coordinate.col);\n  if (!cell || cell.adjacentMines > 0) {\n    return initialResult;\n  }\n  \n  // Cascade reveal using iterative BFS\n  const newGrid = initialResult.grid.map(row => row.map(c => ({ ...c })));\n  let revealedCount = initialResult.revealedCount;\n  \n  const queue: Coordinate[] = [coordinate];\n  const visited = new Set<string>();\n  visited.add(`${coordinate.row},${coordinate.col}`);\n  \n  while (queue.length > 0) {\n    const current = queue.shift()!;\n    const currentCell = getCell(newGrid, current.row, current.col);\n    \n    if (!currentCell) continue;\n    \n    // If this cell has adjacent mines, reveal it and stop cascading from it\n    if (currentCell.adjacentMines > 0) {\n      if (currentCell.status === 'hidden') {\n        currentCell.status = 'revealed';\n        revealedCount++;\n      }\n      continue;\n    }\n    \n    // Empty cell - cascade to neighbors\n    const neighbors = getNeighbors(newGrid, current.row, current.col);\n    \n    for (const neighbor of neighbors) {\n      const key = `${neighbor.row},${neighbor.col}`;\n      \n      if (visited.has(key) || neighbor.status !== 'hidden' || neighbor.hasMine) {\n        continue;\n      }\n      \n      visited.add(key);\n      neighbor.status = 'revealed';\n      revealedCount++;\n      \n      // Add to queue for further cascading\n      queue.push({ row: neighbor.row, col: neighbor.col });\n    }\n  }\n  \n  return {\n    grid: newGrid,\n    gameStatus: 'in-progress',\n    revealedCount\n  };\n}\n```\n\n**Performance Considerations:**\n- Iterative BFS prevents stack overflow on large grids\n- Visited set prevents infinite loops\n- Worst case: O(width × height) for completely empty grid\n- Expert grid (30×16 = 480 cells) should complete in <50ms\n\n**Testing Strategy:**\n- Test single empty cell reveals neighbors\n- Test large empty area reveals entire region\n- Test cascade stops at numbered cells\n- Test performance on expert-sized empty areas\n- Verify no infinite loops or stack overflows\n\n---\n\n### Task 8: Implement Game State Management with React Hooks\n\n**Approach:** Create comprehensive custom hook in `src/hooks/useGameState.ts`\n\n```typescript\nimport { useState, useCallback, useRef } from 'react';\nimport { GameState, DifficultyConfig, Coordinate, GameStatus } from '../types/game.types';\nimport { createEmptyGrid } from '../utils/gridUtils';\nimport { placeMinesAndCalculate } from '../utils/mineUtils';\nimport { revealCellWithCascade } from '../utils/revealUtils';\n\nexport function useGameState(initialDifficulty: DifficultyConfig) {\n  const [gameState, setGameState] = useState<GameState>(() => ({\n    grid: createEmptyGrid(initialDifficulty),\n    gameStatus: 'not-started',\n    difficulty: initialDifficulty,\n    isFirstClick: true,\n    revealedCount: 0,\n    flagCount: 0,\n    elapsedTime: 0,\n    moveCount: 0,\n  }));\n  \n  // Initialize new game\n  const initializeGame = useCallback((difficulty: DifficultyConfig) => {\n    setGameState({\n      grid: createEmptyGrid(difficulty),\n      gameStatus: 'not-started',\n      difficulty,\n      isFirstClick: true,\n      revealedCount: 0,\n      flagCount: 0,\n      elapsedTime: 0,\n      moveCount: 0,\n    });\n  }, []);\n  \n  // Handle cell reveal\n  const handleReveal = useCallback((coordinate: Coordinate) => {\n    setGameState(prev => {\n      let newGrid = prev.grid;\n      let newStatus = prev.gameStatus;\n      \n      // First click: place mines\n      if (prev.isFirstClick) {\n        newGrid = placeMinesAndCalculate(\n          prev.grid,\n          prev.difficulty.mines,\n          coordinate\n        );\n        newStatus = 'in-progress';\n      }\n      \n      // Reveal cell with cascade\n      const result = revealCellWithCascade(newGrid, coordinate, newStatus);\n      \n      const totalSafeCells = \n        prev.difficulty.width * prev.difficulty.height - prev.difficulty.mines;\n      const newRevealedCount = prev.revealedCount + result.revealedCount;\n      \n      // Check win condition\n      let finalStatus = result.gameStatus;\n      if (newRevealedCount === totalSafeCells && finalStatus === 'in-progress') {\n        finalStatus = 'won';\n      }\n      \n      return {\n        ...prev,\n        grid: result.grid,\n        gameStatus: finalStatus,\n        isFirstClick: false,\n        revealedCount: newRevealedCount,\n        moveCount: prev.moveCount + 1,\n      };\n    });\n  }, []);\n  \n  return {\n    gameState,\n    initializeGame,\n    revealCell: handleReveal,\n  };\n}\n```\n\n**Integration Point:**\n- This hook bridges pure utility functions and React UI\n- Manages all game state in a single source of truth\n- Triggers mine placement on first click\n- Detects win/loss conditions automatically\n\n**Testing Strategy:**\n- Test first click places mines correctly\n- Test subsequent clicks reveal cells\n- Test game status transitions (not-started → in-progress → won/lost)\n- Test state updates trigger re-renders\n\n---\n\n### Task 9: Create Basic Game Grid UI Component\n\n**Approach:** Create minimal but functional UI in `src/components/Grid.tsx` and `Cell.tsx`\n\n```typescript\n// src/components/Cell.tsx\nimport { Cell as CellType } from '../types/game.types';\n\ninterface CellProps {\n  cell: CellType;\n  onClick: () => void;\n}\n\nexport function Cell({ cell, onClick }: CellProps) {\n  const getContent = () => {\n    if (cell.status === 'hidden') return '';\n    if (cell.status === 'flagged') return '🚩';\n    if (cell.hasMine) return '💣';\n    if (cell.adjacentMines > 0) return cell.adjacentMines;\n    return '';\n  };\n  \n  const getStyles = () => {\n    const base = 'w-8 h-8 border border-gray-400 flex items-center justify-center text-sm font-bold';\n    \n    if (cell.status === 'hidden') {\n      return `${base} bg-gray-300 cursor-pointer hover:bg-gray-200`;\n    }\n    \n    if (cell.hasMine && cell.isTriggeredMine) {\n      return `${base} bg-red-600 text-white`;\n    }\n    \n    if (cell.hasMine) {\n      return `${base} bg-red-400`;\n    }\n    \n    return `${base} bg-gray-100`;\n  };\n  \n  return (\n    <button\n      className={getStyles()}\n      onClick={onClick}\n      disabled={cell.status === 'revealed'}\n    >\n      {getContent()}\n    </button>\n  );\n}\n```\n\n```typescript\n// src/components/Grid.tsx\nimport { Grid as GridType } from '../types/game.types';\nimport { Cell } from './Cell';\n\ninterface GridProps {\n  grid: GridType;\n  onCellClick: (row: number, col: number) => void;\n}\n\nexport function Grid({ grid, onCellClick }: GridProps) {\n  return (\n    <div className=\"inline-grid gap-0\" style={{\n      gridTemplateColumns: `repeat(${grid[0].length}, minmax(0, 1fr))`\n    }}>\n      {grid.flat().map(cell => (\n        <Cell\n          key={`${cell.row}-${cell.col}`}\n          cell={cell}\n          onClick={() => onCellClick(cell.row, cell.col)}\n        />\n      ))}\n    </div>\n  );\n}\n```\n\n```typescript\n// src/App.tsx\nimport { DIFFICULTY_PRESETS } from './types/game.types';\nimport { useGameState } from './hooks/useGameState';\nimport { Grid } from './components/Grid';\n\nfunction App() {\n  const { gameState, revealCell, initializeGame } = useGameState(\n    DIFFICULTY_PRESETS.beginner\n  );\n  \n  return (\n    <div className=\"min-h-screen bg-gray-50 flex flex-col items-center justify-center p-8\">\n      <h1 className=\"text-4xl font-bold mb-8\">Minesweeper</h1>\n      \n      <div className=\"mb-4\">\n        <p>Status: {gameState.gameStatus}</p>\n        <p>Moves: {gameState.moveCount}</p>\n        <button\n          onClick={() => initializeGame(DIFFICULTY_PRESETS.beginner)}\n          className=\"mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600\"\n        >\n          New Game\n        </button>\n      </div>\n      \n      <Grid\n        grid={gameState.grid}\n        onCellClick={(row, col) => revealCell({ row, col })}\n      />\n    </div>\n  );\n}\n\nexport default App;\n```\n\n**Styling Strategy:**\n- Minimal Tailwind classes for Sprint 1\n- Bold design system will be applied in Sprint 3\n- Focus on functionality over aesthetics\n\n**Validation:**\n- Grid renders with correct dimensions\n- Cells are clickable\n- Cell states display correctly (hidden, revealed, numbered, mine)\n- Game status updates in UI\n\n---\n\n### Task 10: Implement Win/Loss Condition Detection and Game Status Updates\n\n**Approach:** Win detection is already integrated in Task 8's `handleReveal`. Enhance loss handling:\n\n```typescript\n// Add to revealUtils.ts\nexport function revealAllMines(grid: Grid): Grid {\n  return grid.map(row =>\n    row.map(cell => {\n      if (cell.hasMine && cell.status !== 'revealed') {\n        return { ...cell, status: 'revealed' as const };\n      }\n      return cell;\n    })\n  );\n}\n```\n\n```typescript\n// Update Task 8's handleReveal to reveal all mines on loss\nconst handleReveal = useCallback((coordinate: Coordinate) => {\n  setGameState(prev => {\n    // ... existing code ...\n    \n    // After getting result from revealCellWithCascade:\n    let finalGrid = result.grid;\n    if (result.gameStatus === 'lost') {\n      finalGrid = revealAllMines(result.grid);\n    }\n    \n    return {\n      ...prev,\n      grid: finalGrid,\n      gameStatus: finalStatus,\n      // ... rest of state\n    };\n  });\n}, []);\n```\n\n**Win Condition Logic:**\n```typescript\n// Already implemented in Task 8\nconst totalSafeCells = width * height - mineCount;\nif (revealedCount === totalSafeCells) {\n  gameStatus = 'won';\n}\n```\n\n**Loss Condition Logic:**\n```typescript\n// Already implemented in Task 6\nif (revealedCell.hasMine) {\n  gameStatus = 'lost';\n  revealAllMines();\n}\n```\n\n**Validation:**\n- Test win by revealing all safe cells\n- Test loss by clicking mine\n- Verify all mines reveal on loss\n- Verify triggered mine is visually distinct\n- Verify no further clicks work after game ends\n\n---\n\n## 3. Risk Assessment & Mitigation\n\n### High-Priority Risks\n\n| Risk | Probability | Impact | Mitigation Strategy |\n|------|------------|--------|---------------------|\n| **Cascade algorithm stack overflow on large grids** | Medium | High | Use iterative BFS instead of recursion; implement visited tracking |\n| **State mutation bugs causing UI inconsistencies** | Medium | High | Use immutable updates everywhere; consider Immer library if issues persist |\n| **First-click mine placement fails edge cases** | Low | High | Extensive testing of corner/edge first clicks; validate safe zone calculation |\n| **TypeScript configuration issues blocking development** | Low | Medium | Use strict mode from start; verify tsconfig settings match Vite template |\n\n### Medium-Priority Risks\n\n| Risk | Probability | Impact | Mitigation Strategy |\n|------|------------|--------|---------------------|\n| **Performance issues on expert grid (480 cells)** | Medium | Medium | Profile cascade algorithm; optimize rendering with React.memo if needed |\n| **Tailwind CSS not purging correctly** | Low | Low | Verify content paths in tailwind.config.js |\n| **Grid layout breaks on different screen sizes** | Medium | Low | Defer responsive design to Sprint 5; focus on 1920x1080 desktop for Sprint 1 |\n\n---\n\n## 4. Resource Planning\n\n### Complexity Estimates (T-Shirt Sizing)\n\n| Task | Complexity | Estimated Time | Skills Required |\n|------|-----------|----------------|-----------------|\n| Task 1 | S | 0.5-1h | Node.js, npm, basic config |\n| Task 2 | S | 0.5-1h | TypeScript, interface design |\n| Task 3 | S | 1-1.5h | TypeScript, algorithms |\n| Task 4 | M | 1.5-2h | Algorithms, random distribution, edge cases |\n| Task 5 | S | 0.5-1h | Algorithms, grid traversal |\n| Task 6 | M | 1.5-2h | Game logic, state management |\n| Task 7 | L | 2-3h | Algorithms (BFS/DFS), performance optimization |\n| Task 8 | L | 2-3h | React hooks, state management, integration |\n| Task 9 | M | 1.5-2h | React components, Tailwind CSS |\n| Task 10 | S | 0.5-1h | Game logic integration |\n\n**Total Estimated Time: 12-17 hours**\n\n### Resource Allocation Recommendation\n\n**Solo Developer:**\n- Complete over 2-3 days (4-6 hours/day)\n- Focus on one phase per session to maintain context\n\n**Team of 2:**\n- Developer 1: Tasks 1-2 → Tasks 3-5 → Task 8\n- Developer 2: (Waits) → Tasks 6-7 → Tasks 9-10\n- Complete in 1-2 days with pair programming on Task 8\n\n---\n\n## 5. Integration Points\n\n### Critical Integration Checkpoints\n\n**Checkpoint 1: Type System Validation (After Task 2)**\n- All types compile without errors\n- Types can be imported across modules\n- TSConfig strict mode passes\n\n**Checkpoint 2: Core Logic Integration (After Task 5)**\n- Grid generation → Mine placement → Adjacent calculation pipeline works\n- Manual testing with console.log to verify mine distribution\n- Create test grid fixture for use in subsequent tasks\n\n**Checkpoint 3: Reveal Logic Integration (After Task 7)**\n- Single cell reveal works correctly\n- Cascade reveal handles empty cells\n- Performance is acceptable (<100ms for expert grid cascade)\n\n**Checkpoint 4: React Integration (After Task 8)**\n- Pure functions integrate smoothly with React hooks\n- State updates trigger re-renders correctly\n- First-click mine placement works in UI\n\n**Checkpoint 5: Complete Game Loop (After Task 10)**\n- Full gameplay loop works: start → click → cascade → win/loss detection\n- Can play complete game from start to finish\n- All game states display correctly in UI\n\n### Data Flow Diagram\n\n```\nUser Click\n    ↓\nGrid Component onClick\n    ↓\nuseGameState.handleReveal(coordinate)\n    ↓\n[If first click] → placeMinesAndCalculate()\n    ↓\nrevealCellWithCascade()\n    ↓\n[If cell empty] → BFS cascade reveal\n    ↓\nCheck win condition (revealedCount === totalSafeCells)\n    ↓\nUpdate gameState\n    ↓\nReact re-render → UI updates\n```\n\n---\n\n## 6. Quality Gates\n\n### Code Quality Standards\n\n**TypeScript:**\n- ✅ No `any` types allowed (except unavoidable cases with explicit comment)\n- ✅ Strict mode enabled\n- ✅ All functions have return type annotations\n- ✅ Interfaces over types where appropriate\n\n**React:**\n- ✅ Functional components only\n- ✅ Proper dependency arrays in hooks\n- ✅ No inline object/function creation in render (use useCallback/useMemo)\n- ✅ Key props on list items\n\n**Code Organization:**\n- ✅ Pure functions in `utils/` (no React dependencies)\n- ✅ React-specific logic in `hooks/` and `components/`\n- ✅ Types in dedicated `types/` directory\n- ✅ One component per file\n\n### Testing Checklist (Manual for Sprint 1)\n\n**Task 1-2: Setup Validation**\n- [ ] `npm run dev` starts server\n- [ ] No TypeScript errors\n- [ ] Tailwind classes apply correctly\n- [ ] Hot reload works\n\n**Task 3-5: Grid Logic Validation**\n- [ ] Beginner grid: 9×9 = 81 cells\n- [ ] Intermediate grid: 16×16 = 256 cells  \n- [ ] Expert grid: 30×16 = 480 cells\n- [ ] Mines placed correctly (count matches difficulty)\n- [ ] First-click cell never has mine\n- [ ] First-click neighbors (up to 8) never have mines\n- [ ] Adjacent mine counts accurate (spot check multiple cells)\n\n**Task 6-7: Reveal Logic Validation**\n- [ ] Clicking hidden cell reveals it\n- [ ] Clicking mine triggers loss\n- [ ] Clicking empty cell triggers cascade\n- [ ] Cascade reveals connected empty cells\n- [ ] Cascade stops at numbered boundary cells\n- [ ] Cascade doesn't hang or cause performance issues\n\n**Task 8-10: Full Game Validation**\n- [ ] First click places mines\n- [ ] First click never triggers loss\n- [ ] Game status: not-started → in-progress on first click\n- [ ] Revealing all safe cells triggers win\n- [ ] Clicking mine triggers loss and reveals all mines\n- [ ] New Game button resets properly\n- [ ] Move counter increments correctly\n- [ ] No crashes or console errors during gameplay\n\n### Performance Benchmarks\n\n**Target Performance (Sprint 1):**\n- Grid generation: < 10ms for any difficulty\n- Mine placement: < 20ms for expert (99 mines)\n- Single cell reveal: < 5ms\n- Full-grid cascade (worst case): < 100ms on expert grid\n- UI re-render: < 16ms (60fps) for any state update\n\n**Measurement Approach:**\n```typescript\nconsole.time('operation');\n// ... operation ...\nconsole.timeEnd('operation');\n```\n\n---\n\n## 7. Rollback Strategy\n\n### Failure Scenarios & Recovery\n\n**Scenario 1: Task 4 (Mine Distribution) Produces Unsolvable Boards**\n- **Symptom:** Players report situations where first click is in area with no logical moves\n- **Impact:** Low (gameplay works, just less fun)\n- **Rollback:** Simplify to basic random placement without safe zone validation\n- **Recovery:** Address in Sprint 6 Task 3 (enhanced algorithm)\n\n**Scenario 2: Task 7 (Cascade) Causes Performance Issues**\n- **Symptom:** Game freezes when clicking large empty areas\n- **Impact:** High (game unplayable on expert difficulty)\n- **Rollback:** Disable cascade; only reveal single cells\n- **Recovery:** Optimize algorithm with profiling; add cascade depth limit\n\n**Scenario 3: Task 8 (React Hook) State Corruption**\n- **Symptom:** UI shows incorrect cell states; clicks don't work\n- **Impact:** Critical (game broken)\n- **Rollback:** Revert to previous working version of useGameState\n- **Recovery:** Review immutability practices; add state validation logging\n\n**Scenario 4: Tailwind CSS Build Issues**\n- **Symptom:** Styles don't apply; build fails\n- **Impact:** Medium (functionality works, ugly UI)\n- **Rollback:** Use inline styles temporarily\n- **Recovery:** Debug tailwind.config.js and postcss.config.js\n\n### Git Strategy\n\n**Branching:**\n```\nmain (stable)\n  ↓\nsprint-1 (integration branch)\n  ↓\nfeature/task-1-project-setup\nfeature/task-2-types\nfeature/task-3-grid-generation\n... etc\n```\n\n**Commit Points (Atomic Commits):**\n- After each completed task\n- After each integration checkpoint\n- Before attempting risky refactors\n\n**Rollback Commands:**\n```bash\n# Rollback to specific task\ngit checkout feature/task-N\n\n# Rollback entire sprint\ngit revert <sprint-start-commit>..<HEAD>\n\n# Emergency nuclear option\ngit reset --hard <last-known-good-commit>\n```\n\n---\n\n## 8. Definition of Done\n\n### Sprint 1 Completion Criteria\n\n**Functional Requirements:**\n- ✅ Game can be started with beginner difficulty\n- ✅ Player can click cells to reveal them\n- ✅ First click never reveals a mine\n- ✅ Clicking empty cell cascades to reveal connected empty area\n- ✅ Numbers display correctly showing adjacent mine count\n- ✅ Clicking mine ends game (loss)\n- ✅ Revealing all safe cells ends game (win)\n- ✅ Game can be restarted\n- ✅ Move counter tracks click actions\n\n**Technical Requirements:**\n- ✅ All TypeScript strict mode errors resolved\n- ✅ No console errors during gameplay\n- ✅ Project runs with `npm run dev`\n- ✅ Code follows project structure (`types/`, `utils/`, `hooks/`, `components/`)\n- ✅ Pure functions separated from React components\n- ✅ Immutable state updates throughout\n\n**Quality Requirements:**\n- ✅ All 10 tasks completed\n- ✅ All integration checkpoints passed\n- ✅ Manual testing checklist 100% complete\n- ✅ Performance benchmarks met\n- ✅ Code reviewed (if team) or self-reviewed (if solo)\n\n**Documentation:**\n- ✅ README updated with setup instructions\n- ✅ Key functions have JSDoc comments\n- ✅ Type definitions are clear and self-documenting\n- ✅ Known limitations documented (e.g., no mobile support yet, basic UI)\n\n---\n\n## 9. Handoff to Implementation\n\n### Pre-Implementation Checklist\n\n**Before Starting Task 1:**\n- [ ] Development machine has Node.js 18+ installed\n- [ ] npm or yarn is available\n- [ ] Code editor with TypeScript support ready (VS Code recommended)\n- [ ] Git repository initialized\n- [ ] This execution plan document saved and accessible\n\n**Recommended Execution Flow:**\n\n1. **Day 1 (4-6 hours):**\n   - Complete Tasks 1-2 (setup foundation)\n   - Complete Tasks 3-5 (core logic)\n   - Reach Integration Checkpoint 2\n\n2. **Day 2 (4-6 hours):**\n   - Complete Tasks 6-7 (reveal logic)\n   - Reach Integration Checkpoint 3\n   - Begin Task 8 (React integration)\n\n3. **Day 3 (4-5 hours):**\n   - Complete Task 8\n   - Complete Tasks 9-10\n   - Full testing and validation\n   - Reach Definition of Done\n\n### Communication Checkpoints\n\n**For Solo Developer:**\n- Document decisions in commit messages\n- Note any deviations from plan in code comments\n- Update this document with actual vs estimated times\n\n**For Team:**\n- Daily standup to sync progress\n- Pair programming session for Task 8 integration\n- Code review before merging to sprint-1 branch\n\n---\n\n## 10. Success Metrics\n\n### Sprint Objectives Achievement\n\n**Primary Objective: Playable Core Game**\n- ✅ Metric: Can complete a full game (win or loss) without bugs\n- ✅ Target: 100% success rate across 10 test games\n\n**Secondary Objective: Solid Architecture**\n- ✅ Metric: Pure functions testable without React environment\n- ✅ Target: 80%+ of game logic in pure TypeScript functions\n\n**Tertiary Objective: Performance Foundation**\n- ✅ Metric: Cascade reveal completes in <100ms on expert grid\n- ✅ Target: Achieved in 90%+ of test cases\n\n### Readiness for Sprint 2\n\n**Sprint 1 sets up:**\n- ✅ Core game mechanics (reveal, cascade, win/loss) → Sprint 2 adds flags\n- ✅ Basic state management → Sprint 2 adds Zustand/Context\n- ✅ Simple UI → Sprint 2 adds dual input methods\n- ✅ Type system → Sprint 2 extends for timer, statistics\n\n**Blockers for Sprint 2:**\n- ❌ If cascade doesn't work → Sprint 2 cannot add complexity\n- ❌ If state management is buggy → Sprint 2 cannot add more state\n- ❌ If TypeScript setup is broken → Sprint 2 cannot build on it\n\n---\n\n## Appendix A: Quick Reference Commands\n\n```bash\n# Initial Setup (Task 1)\nnpm create vite@latest minesweeper -- --template react-ts\ncd minesweeper\nnpm install\nnpm install -D tailwindcss postcss autoprefixer\nnpx tailwindcss init -p\n\n# Development\nnpm run dev          # Start dev server (http://localhost:5173)\nnpm run build        # Production build (for verification)\nnpm run preview      # Preview production build\n\n# Git Workflow\ngit checkout -b sprint-1\ngit checkout -b feature/task-N\ngit add .\ngit commit -m \"feat: complete task N - [description]\"\ngit checkout sprint-1\ngit merge feature/task-N\n```\n\n---\n\n## Appendix B: Tailwind Configuration Template\n\n```typescript\n// tailwind.config.js\n/** @type {import('tailwindcss').Config} */\nexport default {\n  content: [\n    \"./index.html\",\n    \"./src/**/*.{js,ts,jsx,tsx}\",\n  ],\n  theme: {\n    extend: {\n      // Sprint 3 will add bold design system tokens here\n    },\n  },\n  plugins: [],\n}\n```\n\n```css\n/* src/index.css */\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n```\n\n---\n\n## Appendix C: Known Limitations (Sprint 1 Scope)\n\n**Intentionally NOT Included in Sprint 1:**\n- ❌ Flag placement (Sprint 2)\n- ❌ Timer functionality (Sprint 3)\n- ❌ Statistics tracking beyond move count (Sprint 3)\n- ❌ Multiple difficulty selection (Sprint 4)\n- ❌ Responsive design (Sprint 5)\n- ❌ Touch controls (Sprint 5)\n- ❌ LocalStorage persistence (Sprint 6)\n- ❌ Bold design system styling (Sprint 3)\n\n**Sprint 1 Delivers:**\n- ✅ Core playable game on desktop\n- ✅ Click to reveal only (no right-click flags)\n- ✅ Basic beginner difficulty (hardcoded)\n- ✅ Minimal functional UI\n- ✅ Win/loss detection\n- ✅ Move counter\n\n---\n\n**End of Sprint 1 Execution Plan**\n\nThis plan provides a clear, actionable roadmap for implementing Sprint 1. Follow the task order, validate at each checkpoint, and you'll have a solid foundation for the remaining sprints.",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112392245_yf83vu093",
+      "timestamp": "2026-02-03T09:53:12.246Z",
+      "type": "info",
+      "message": "Development server started",
+      "details": "App is running at http://localhost:5173",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112219154_c0m1x529x",
+      "timestamp": "2026-02-03T09:50:19.154Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112218598_zxti9u51q",
+      "timestamp": "2026-02-03T09:50:18.598Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112218142_diz51a0gg",
+      "timestamp": "2026-02-03T09:50:18.142Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "I'll analyze the sprint requirements and create a comprehensive execution plan. Let me first read the project.vib file to understand the authoritative requirements.",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112212599_tm5d0t2u6",
+      "timestamp": "2026-02-03T09:50:12.599Z",
+      "type": "info",
+      "message": "Claude Code Session Started",
+      "details": "Session ID: sprint-execution-session",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112212599_q3bal8rji",
+      "timestamp": "2026-02-03T09:50:12.599Z",
+      "type": "info",
+      "message": "Claude Code SDK Execution",
+      "details": "Working directory: /Users/raminhedayatpour/Documents/VibeProjects/minesweeper\nPrompt length: 16588 chars",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770112212458_hsffihrq7",
+      "timestamp": "2026-02-03T09:50:12.458Z",
+      "type": "info",
+      "message": "Planning phase",
+      "details": "Creating execution plan using planning model...",
+      "sprintId": "sprint_1770111649899_1"
+    },
+    {
+      "id": "log_1770112212456_9jb8knifq",
+      "timestamp": "2026-02-03T09:50:12.456Z",
+      "type": "info",
+      "message": "Sprint execution started",
+      "details": "Starting execution of 10 task(s) in Sprint 1: Project Setup & Core Game Logic",
+      "sprintId": "sprint_1770111649899_1"
+    }
+  ],
+  "timestamp": "2026-02-03T10:06:38.467Z",
+  "projectPath": "/Users/raminhedayatpour/Documents/VibeProjects/minesweeper"
+}

@@ -1,0 +1,13 @@
+{
+  "common": [],
+  "coder": [
+    {
+      "id": "instr_1770112027922_ku62jhjm9",
+      "text": "Don't use emojis",
+      "enabled": true
+    }
+  ],
+  "manager": [],
+  "qa": [],
+  "deployer": []
+}
