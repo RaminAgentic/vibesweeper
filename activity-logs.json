@@ -1,6 +1,89 @@
 {
   "logs": [
     {
+      "id": "log_1770119880306_smh2tsvjv",
+      "timestamp": "2026-02-03T11:58:00.306Z",
+      "type": "error",
+      "message": "Claude Code Session Failed",
+      "details": "Session ID: claude-code-session_1770119090996_trhpxqmjd\nError: Claude Code SDK error: resultContent.match is not a function",
+      "sessionId": "claude-code-session_1770119090996_trhpxqmjd"
+    },
+    {
+      "id": "log_1770119879849_ykalvceby",
+      "timestamp": "2026-02-03T11:57:59.849Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_navigate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_navigate",
+      "sessionId": "claude-code-session_1770119090996_trhpxqmjd"
+    },
+    {
+      "id": "log_1770119879433_zavamyuvz",
+      "timestamp": "2026-02-03T11:57:59.433Z",
+      "type": "info",
+      "message": "Development server started",
+      "details": "App is running at http://localhost:5173",
+      "sessionId": "claude-code-session_1770119090996_trhpxqmjd"
+    },
+    {
+      "id": "log_1770119875897_6wd1eiwp1",
+      "timestamp": "2026-02-03T11:57:55.897Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "claude-code-session_1770119090996_trhpxqmjd"
+    },
+    {
+      "id": "log_1770119868389_uz6q2htyx",
+      "timestamp": "2026-02-03T11:57:48.389Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "claude-code-session_1770119090996_trhpxqmjd"
+    },
+    {
+      "id": "log_1770119860815_pmlypszz0",
+      "timestamp": "2026-02-03T11:57:40.815Z",
+      "type": "user-input",
+      "message": "Direct command: not running"
+    },
+    {
+      "id": "log_1770119669386_p1bxnhtci",
+      "timestamp": "2026-02-03T11:54:29.386Z",
+      "type": "error",
+      "message": "Claude Code Session Failed",
+      "details": "Session ID: claude-code-session_1770119090996_trhpxqmjd\nError: Claude Code SDK error: resultContent.match is not a function",
+      "sessionId": "claude-code-session_1770119090996_trhpxqmjd"
+    },
+    {
+      "id": "log_1770119669141_kfs0gf5uh",
+      "timestamp": "2026-02-03T11:54:29.141Z",
+      "type": "error",
+      "message": "Command failed",
+      "details": "Claude Code SDK error: resultContent.match is not a function"
+    },
+    {
+      "id": "log_1770119668263_r0h30o7jo",
+      "timestamp": "2026-02-03T11:54:28.263Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_navigate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_navigate",
+      "sessionId": "claude-code-session_1770119090996_trhpxqmjd"
+    },
+    {
+      "id": "log_1770119543448_xa285dq57",
+      "timestamp": "2026-02-03T11:52:23.448Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "claude-code-session_1770119090996_trhpxqmjd"
+    },
+    {
+      "id": "log_1770119536346_jsbdiz7hl",
+      "timestamp": "2026-02-03T11:52:16.346Z",
+      "type": "user-input",
+      "message": "Direct command: start the app. onhttp://localhost:5173"
+    },
+    {
       "id": "log_1770118319223_s87fh2xid",
       "timestamp": "2026-02-03T11:31:59.223Z",
       "type": "success",
@@ -4636,6 +4719,6 @@
       "sprintId": "sprint_1770111649899_1"
     }
   ],
-  "timestamp": "2026-02-03T11:33:30.559Z",
+  "timestamp": "2026-02-03T13:03:23.769Z",
   "projectPath": "/Users/raminhedayatpour/Documents/VibeProjects/minesweeper"
 }

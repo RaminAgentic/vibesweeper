@@ -6,7 +6,7 @@
   "projectPath": "/Users/raminhedayatpour/Documents/VibeProjects/minesweeper",
   "status": "completed",
   "createdAt": "2026-02-03T09:29:14.493Z",
-  "updatedAt": "2026-02-03T11:31:58.701Z",
+  "updatedAt": "2026-02-03T13:01:47.349Z",
   "version": "1.0.0",
   "useCaseNodes": [
     {
@@ -737,14 +737,40 @@
       ]
     }
   ],
-  "issueNodes": [],
+  "issueNodes": [
+    {
+      "id": "issue_qa_1770122995711_25ojjqd70",
+      "type": "issue",
+      "title": "[BUG-001] Safe First Click - No Mine on First Reveal not working",
+      "description": "Verify that the first clicked cell never contains a mine and game does not end on first click\n\nExpected: First click reveals a safe cell (either empty or numbered), game status changes to 'in-progress', and no game over occurs\n\nActual: Expected text \"in-progress\" not found in element. Actual text: \"New Game...\"\n\nFailed at: Step 5: assert - Verify game is in progress, not lost\n\nPage: http://localhost:5173/\n\nConsole errors:\n• Expected text \"in-progress\" not found in element. Actual text: \"New Game...\"\n\nSteps:\n1. Navigate to application\n2. Wait for grid to load\n3. Click first cell in grid\n4. Wait for cell reveal\n5. Verify game is in progress, not lost\n6. Capture first click result",
+      "issueType": "bug",
+      "priority": "high",
+      "status": "open",
+      "estimatedEffort": "medium",
+      "source": "qa",
+      "qaTestCaseId": "tc_1770119196591_4",
+      "qaTestRunId": "qtr_1770122957229_zj2o3xxak",
+      "images": [],
+      "createdAt": "2026-02-03T12:49:55.711Z",
+      "updatedAt": "2026-02-03T12:49:55.711Z",
+      "isEditing": false,
+      "isDirty": false,
+      "relatedRequirements": [],
+      "relatedUseCases": [],
+      "labels": [
+        "qa-discovered"
+      ],
+      "reportedBy": "qa-agent",
+      "version": 1
+    }
+  ],
   "processFlow": {
     "currentPhase": "concept",
     "completedPhases": [],
     "nodeCompletionStats": {},
     "flowValid": true,
     "validationErrors": [],
-    "lastUserInteraction": "2026-02-03T11:31:59.222Z",
+    "lastUserInteraction": "2026-02-03T13:01:47.383Z",
     "userFeedbackPending": false
   },
   "nodeHistory": [],
