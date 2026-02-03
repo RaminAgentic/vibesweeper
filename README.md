@@ -284,3 +284,4 @@ For questions or feedback, please open an issue on GitHub.
 **Built with ❤️ using React, TypeScript, and Vite**
 
 **Enjoy playing Minesweeper! 💣**
+# vibesweeper
