@@ -136,15 +136,34 @@ export function revealCellWithCascade(
 
 /**
  * Reveals all mines on the grid (used when game is lost)
+ * Also marks incorrect flags (flagged cells that don't have mines)
  * @param grid - The game grid
- * @returns Updated grid with all mines revealed
+ * @param triggeredCoord - Optional coordinates of the mine that caused the loss
+ * @returns Updated grid with all mines revealed and incorrect flags marked
  */
-export function revealAllMines(grid: Grid): Grid {
+export function revealAllMines(grid: Grid, triggeredCoord?: Coordinate): Grid {
   return grid.map(row =>
     row.map(cell => {
+      // Mark the triggered mine distinctly
+      if (
+        triggeredCoord &&
+        cell.row === triggeredCoord.row &&
+        cell.col === triggeredCoord.col &&
+        cell.hasMine
+      ) {
+        return { ...cell, status: 'revealed' as const, isTriggeredMine: true };
+      }
+
+      // Reveal all other mines
       if (cell.hasMine && cell.status !== 'revealed') {
         return { ...cell, status: 'revealed' as const };
       }
+
+      // Mark incorrect flags (flagged cells without mines)
+      if (cell.status === 'flagged' && !cell.hasMine) {
+        return { ...cell, isIncorrectFlag: true };
+      }
+
       return cell;
     })
   );

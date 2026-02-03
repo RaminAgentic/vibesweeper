@@ -169,8 +169,12 @@ export function Cell({ cell }: CellProps) {
       return `${base} bg-gray-300 ${interactive}`;
     }
 
-    // Flagged cell
+    // Flagged cell (with incorrect flag indicator on loss)
     if (cell.status === 'flagged') {
+      if (cell.isIncorrectFlag) {
+        // Incorrect flag - show in red with X indicator
+        return `${base} bg-red-300 line-through`;
+      }
       const interactive = !isGameOver ? 'hover:bg-yellow-500 cursor-pointer' : '';
       return `${base} bg-yellow-400 ${interactive}`;
     }

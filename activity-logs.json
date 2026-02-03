@@ -1,6 +1,295 @@
 {
   "logs": [
     {
+      "id": "log_1770115847681_8712ggk5n",
+      "timestamp": "2026-02-03T10:50:47.681Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115844488_scb2fi0qx",
+      "timestamp": "2026-02-03T10:50:44.488Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115843937_ypnulua32",
+      "timestamp": "2026-02-03T10:50:43.937Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Now try the build again:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115832584_5mmp9hylf",
+      "timestamp": "2026-02-03T10:50:32.584Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115832250_f85vplzcm",
+      "timestamp": "2026-02-03T10:50:32.250Z",
+      "type": "info",
+      "message": "Executing: Edit",
+      "details": "Using tool: Edit",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115828209_3j86658tv",
+      "timestamp": "2026-02-03T10:50:28.210Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Let me fix these TypeScript errors:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115822018_b5na6to5l",
+      "timestamp": "2026-02-03T10:50:22.018Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115817454_nsmw05w66",
+      "timestamp": "2026-02-03T10:50:17.454Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115817180_ko3nyxo6p",
+      "timestamp": "2026-02-03T10:50:17.180Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_click",
+      "details": "Using tool: mcp__embeddedBrowser__browser_click",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115816994_zux7rsxu8",
+      "timestamp": "2026-02-03T10:50:16.994Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Good! The console shows the app loaded successfully with only Electron security warnings (which are expected in the dev environment). The HMR (Hot Module Reload) worked correctly. Let me test the game by clicking a cell to verify the timer starts:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115810697_n9btthx4j",
+      "timestamp": "2026-02-03T10:50:10.697Z",
+      "type": "info",
+      "message": "Executing: Read",
+      "details": "Using tool: Read",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115806151_n196b3gbh",
+      "timestamp": "2026-02-03T10:50:06.151Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115806059_5v3ahlb31",
+      "timestamp": "2026-02-03T10:50:06.059Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115801100_ut1xpgzx3",
+      "timestamp": "2026-02-03T10:50:01.100Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_get_console_logs",
+      "details": "Using tool: mcp__embeddedBrowser__browser_get_console_logs",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115800867_bpb3nh7py",
+      "timestamp": "2026-02-03T10:50:00.867Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Let me check the browser console for any errors:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115796894_k3ou5vse9",
+      "timestamp": "2026-02-03T10:49:56.894Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_screenshot",
+      "details": "Using tool: mcp__embeddedBrowser__browser_screenshot",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115793876_sqh902dyk",
+      "timestamp": "2026-02-03T10:49:53.876Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115793559_vx16cvkoo",
+      "timestamp": "2026-02-03T10:49:53.559Z",
+      "type": "info",
+      "message": "Executing: mcp__embeddedBrowser__browser_navigate",
+      "details": "Using tool: mcp__embeddedBrowser__browser_navigate",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115787118_fzucp4hq2",
+      "timestamp": "2026-02-03T10:49:47.118Z",
+      "type": "info",
+      "message": "Executing: BashOutput",
+      "details": "Using tool: BashOutput",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115786766_tn62ytb56",
+      "timestamp": "2026-02-03T10:49:46.766Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Let me check the dev server output:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115783574_gtsf96zyy",
+      "timestamp": "2026-02-03T10:49:43.574Z",
+      "type": "info",
+      "message": "Executing: Bash",
+      "details": "Using tool: Bash",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115780227_vwuhufflr",
+      "timestamp": "2026-02-03T10:49:40.227Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115780080_0w2nqaipu",
+      "timestamp": "2026-02-03T10:49:40.080Z",
+      "type": "info",
+      "message": "Executing: TodoWrite",
+      "details": "Using tool: TodoWrite",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115775494_dsottppcg",
+      "timestamp": "2026-02-03T10:49:35.494Z",
+      "type": "info",
+      "message": "Claude Code response",
+      "details": "Perfect! Now let me update todos and test the application:",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115772575_cfth4qg7f",
+      "timestamp": "2026-02-03T10:49:32.575Z",
+      "type": "info",
+      "message": "Executing: Edit",
+      "details": "Using tool: Edit",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115767234_rs6frxho5",
+      "timestamp": "2026-02-03T10:49:27.234Z",
+      "type": "info",
+      "message": "Claude Code processing task",
+      "details": "Analyzing task requirements and generating implementation plan",
+      "sessionId": "sprint-execution-session"
+    },
+    {
+      "id": "log_1770115571847_5mmexkisw",
+      "timestamp": "2026-02-03T10:46:11.847Z",
+      "type": "info",
+      "message": "Execution phase",
+      "details": "Starting unified session execution with task tracking...",
+      "sprintId": "sprint_1770111649899_3"
+    },
+    {
+      "id": "log_1770115571842_xpa44ntbe",
+      "timestamp": "2026-02-03T10:46:11.842Z",
+      "type": "success",
+      "message": "Planning completed",
+      "details": "Execution plan created successfully",
+      "sessionId": "Perfect! Now I have a comprehensive understanding of the project. Let me create a detailed execution plan for Sprint 3.\n\n---\n\n# **Sprint 3 Execution Plan: Real-Time Statistics & Game UI**\n\n## Executive Summary\n\nSprint 3 builds upon the completed foundation of Sprints 1 & 2, adding real-time game statistics (timer, mine counter, move tracking), polished game completion flows (win/loss detection with modals), and a bold, modern UI design system. This sprint transforms the functional prototype into a production-ready game experience.\n\n**Current State Analysis:**\n- ✅ **Sprints 1 & 2 Complete:** Core game logic, grid rendering, state management (Zustand), input handlers (mouse/touch)\n- ✅ **Existing State:** `elapsedTime` and `moveCount` already tracked in store but not actively used\n- ✅ **Architecture:** React + TypeScript + Vite + Tailwind CSS + Zustand (matches `.vib` requirements)\n- 📍 **Current Implementation:** Basic stats display exists (`src/App.tsx:44-55`) but no timer logic, minimal styling\n\n---\n\n## 1. Dependency Analysis & Execution Order\n\n### **Critical Path Dependencies**\n\n```mermaid\ngraph TD\n    A[Task 1: Timer System] --> D[Task 4: Stats Panel UI]\n    B[Task 2: Mine Counter] --> D\n    C[Task 3: Move Counter] --> D\n    D --> E[Task 5: Win Detection]\n    D --> F[Task 6: Loss Enhancement]\n    E --> G[Task 7: End-Game Modal]\n    F --> G\n    G --> H[Task 8: Restart/New Game]\n    I[Task 9: Bold Design System] -.-> ALL[All UI Tasks]\n```\n\n### **Optimal Execution Sequence**\n\n#### **Phase 1: Statistics Foundation** (Parallel - Day 1)\n1. **Task 1:** Real-Time Timer ⏱️\n2. **Task 2:** Mine Counter 💣 (Already partially implemented - needs refinement)\n3. **Task 3:** Move Counter 🎯 (State already tracked, needs UI integration)\n\n**Justification:** These three tasks are independent and can be developed/tested in parallel. They all feed into Task 4.\n\n#### **Phase 2: UI Integration** (Day 1-2)\n4. **Task 4:** Statistics Display Panel 📊\n\n**Justification:** Consolidates Phase 1 outputs into cohesive UI. Must wait for timer logic but can proceed with mine/move counters.\n\n#### **Phase 3: Game Completion Logic** (Parallel - Day 2)\n5. **Task 5:** Win Condition Detection 🏆\n6. **Task 6:** Loss Condition Enhancement 💥\n\n**Justification:** Independent tasks that both modify game end states. Can be developed in parallel.\n\n#### **Phase 4: End-Game Experience** (Day 3)\n7. **Task 7:** End-Game Modal 🎉\n8. **Task 8:** Restart/New Game Functionality 🔄\n\n**Justification:** Sequential - modal depends on win/loss detection; restart logic is called from modal.\n\n#### **Phase 5: Design Polish** (Day 3-4, Continuous)\n9. **Task 9:** Bold Design System 🎨\n\n**Justification:** Can be applied incrementally throughout sprint. Final polish pass at end.\n\n---\n\n## 2. Technical Approach by Task\n\n### **Task 1: Real-Time Timer System**\n\n**Implementation Strategy:**\n```typescript\n// Add to gameStore.ts\ninterface GameStore {\n  // ... existing\n  elapsedTime: number; // Already exists\n  timerInterval: NodeJS.Timeout | null; // New: track interval\n  startTimer: () => void;\n  stopTimer: () => void;\n  resetTimer: () => void;\n  tickTimer: () => void;\n}\n\n// Actions\nstartTimer: () => {\n  const state = get();\n  if (state.timerInterval) return; // Prevent duplicate intervals\n  \n  const intervalId = setInterval(() => {\n    const currentState = get();\n    if (currentState.gameStatus === 'in-progress') {\n      set({ elapsedTime: currentState.elapsedTime + 1 });\n    } else {\n      get().stopTimer();\n    }\n  }, 1000);\n  \n  set({ timerInterval: intervalId });\n}\n```\n\n**Integration Points:**\n- **Start Trigger:** In `revealCell` action when `gameStatus` changes to `'in-progress'`\n- **Stop Trigger:** When `gameStatus` changes to `'won'` or `'lost'`\n- **Format:** Create utility function `formatTime(seconds: number): string` → `\"MM:SS\"` or `\"HH:MM:SS\"`\n\n**Edge Cases:**\n- Multiple rapid clicks during first reveal (guard with `timerInterval` check)\n- Memory leak prevention (clear interval in `stopTimer` and on unmount)\n- Timer persistence during page refresh (Sprint 6 - localStorage integration)\n\n---\n\n### **Task 2: Mine Counter Display**\n\n**Implementation Strategy:**\n```typescript\n// Already exists in App.tsx:8\nconst remainingMines = difficulty.mines - flagCount;\n\n// Enhancement: Handle negative values gracefully\nconst displayMines = Math.max(0, remainingMines); // Option A: Clamp to 0\n// OR\nconst displayMines = remainingMines; // Option B: Show negative (allows over-flagging)\n```\n\n**Recommendation:** **Option B** - Allow negative display. This is standard Minesweeper behavior and provides feedback that user has placed too many flags.\n\n**No code changes needed** - already functional. Enhancement in Task 4 (styling).\n\n---\n\n### **Task 3: Move Counter**\n\n**Implementation Strategy:**\n- **Already tracked:** `moveCount` increments in `gameStore.ts:118` during `revealCell`\n- **Current behavior:** Counts each `revealCell` action (including cascades) as 1 move ✅ Correct\n- **No changes needed** - just needs UI integration in Task 4\n\n**Validation:**\n- Verify cascade reveals count as single move (currently correct)\n- Ensure move counter doesn't increment on flagging (currently correct)\n\n---\n\n### **Task 4: Statistics Display Panel**\n\n**Component Structure:**\n```typescript\n// src/components/StatsPanel.tsx\ninterface StatItemProps {\n  icon: string;\n  label: string;\n  value: string | number;\n}\n\nexport function StatsPanel() {\n  const { elapsedTime, difficulty, flagCount, moveCount } = useGameStore();\n  const remainingMines = difficulty.mines - flagCount;\n  const formattedTime = formatTime(elapsedTime);\n\n  return (\n    <div className=\"flex flex-col sm:flex-row gap-4 sm:gap-8 p-6 bg-white rounded-lg shadow-lg border-4 border-gray-800\">\n      <StatItem icon=\"⏱️\" label=\"Time\" value={formattedTime} />\n      <StatItem icon=\"💣\" label=\"Mines\" value={remainingMines} />\n      <StatItem icon=\"🎯\" label=\"Moves\" value={moveCount} />\n    </div>\n  );\n}\n```\n\n**Responsive Behavior:**\n- **Desktop:** Horizontal layout (`flex-row`)\n- **Mobile:** Vertical stack (`flex-col`) with `sm:` breakpoint\n- **Fixed Height:** Use `min-h-[80px]` to prevent layout shifts during updates\n\n**Bold Design Principles:**\n- Large font sizes: `text-3xl` for values, `text-sm` for labels\n- High contrast: Black borders (`border-4`), bold weights (`font-extrabold`)\n- Clear spacing: `gap-8` for breathing room\n\n---\n\n### **Task 5: Win Condition Detection**\n\n**Current Implementation:** ✅ Already exists in `gameStore.ts:101-105`\n\n**Enhancement Needed:**\n```typescript\n// In revealCell action after line 105\nif (finalStatus === 'won') {\n  get().stopTimer(); // Stop timer immediately\n  // Optional: Reveal all mines with \"success\" styling\n  finalGrid = markAllMinesAsCorrect(result.grid);\n}\n```\n\n**Optional Enhancement Function:**\n```typescript\n// src/utils/revealUtils.ts\nexport function markAllMinesAsCorrect(grid: Grid): Grid {\n  return grid.map(row =>\n    row.map(cell =>\n      cell.hasMine && cell.status !== 'revealed'\n        ? { ...cell, status: 'revealed' as CellStatus }\n        : cell\n    )\n  );\n}\n```\n\n---\n\n### **Task 6: Loss Condition Enhancement**\n\n**Current Implementation:** ✅ Loss detection exists, basic mine reveal implemented\n\n**Enhancements Needed:**\n```typescript\n// Enhanced revealAllMines in src/utils/revealUtils.ts\nexport function revealAllMines(grid: Grid, triggeredCoord?: Coordinate): Grid {\n  return grid.map(row =>\n    row.map(cell => {\n      // Mark the triggered mine\n      if (triggeredCoord && cell.row === triggeredCoord.row && cell.col === triggeredCoord.col && cell.hasMine) {\n        return { ...cell, status: 'revealed' as CellStatus, isTriggeredMine: true };\n      }\n      // Reveal all other mines\n      if (cell.hasMine && cell.status !== 'revealed') {\n        return { ...cell, status: 'revealed' as CellStatus };\n      }\n      // Show incorrect flags (flagged non-mine cells)\n      if (cell.status === 'flagged' && !cell.hasMine) {\n        return { ...cell, isIncorrectFlag: true }; // New field\n      }\n      return cell;\n    })\n  );\n}\n```\n\n**Type Update:**\n```typescript\n// src/types/game.types.ts - Add to Cell interface\nexport interface Cell {\n  // ... existing\n  isIncorrectFlag?: boolean; // For showing wrong flags on loss\n}\n```\n\n**Cell Styling Update:**\n```typescript\n// In Cell.tsx getStyles()\nif (cell.status === 'flagged' && cell.isIncorrectFlag) {\n  return `${base} bg-red-200 line-through`; // Show as incorrect\n}\n```\n\n---\n\n### **Task 7: End-Game Modal**\n\n**Component Structure:**\n```typescript\n// src/components/EndGameModal.tsx\ninterface EndGameModalProps {\n  isOpen: boolean;\n  result: 'won' | 'lost';\n  stats: {\n    time: number;\n    moves: number;\n    difficulty: string;\n  };\n  onRestart: () => void;\n  onChangeDifficulty: () => void;\n}\n\nexport function EndGameModal({ isOpen, result, stats, onRestart, onChangeDifficulty }: EndGameModalProps) {\n  if (!isOpen) return null;\n\n  return (\n    <div className=\"fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4\">\n      <div className=\"bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 border-4 border-gray-900\">\n        {/* Result message with conditional styling */}\n        <h2 className={`text-4xl font-extrabold mb-6 text-center ${\n          result === 'won' ? 'text-green-600' : 'text-red-600'\n        }`}>\n          {result === 'won' ? '🎉 Victory!' : '💥 Game Over'}\n        </h2>\n        \n        {/* Statistics display */}\n        <div className=\"space-y-3 mb-8 bg-gray-50 p-6 rounded-lg\">\n          <StatRow label=\"Time\" value={formatTime(stats.time)} />\n          <StatRow label=\"Moves\" value={stats.moves} />\n          <StatRow label=\"Difficulty\" value={stats.difficulty} />\n        </div>\n\n        {/* Action buttons */}\n        <div className=\"flex flex-col gap-3\">\n          <button onClick={onRestart} className=\"btn-primary\">\n            Play Again\n          </button>\n          <button onClick={onChangeDifficulty} className=\"btn-secondary\">\n            Change Difficulty\n          </button>\n        </div>\n      </div>\n    </div>\n  );\n}\n```\n\n**Integration:**\n```typescript\n// In App.tsx\nconst showModal = gameStatus === 'won' || gameStatus === 'lost';\n\nreturn (\n  <>\n    {/* ... existing UI */}\n    <EndGameModal\n      isOpen={showModal}\n      result={gameStatus === 'won' ? 'won' : 'lost'}\n      stats={{\n        time: elapsedTime,\n        moves: moveCount,\n        difficulty: difficulty.level,\n      }}\n      onRestart={resetGame}\n      onChangeDifficulty={() => {/* Sprint 4 - difficulty selector */}}\n    />\n  </>\n);\n```\n\n**Accessibility:**\n- Trap focus within modal (use `react-focus-lock` or custom implementation)\n- Close on `Escape` key\n- Auto-focus primary button on open\n- ARIA attributes: `role=\"dialog\"`, `aria-labelledby`, `aria-modal=\"true\"`\n\n---\n\n### **Task 8: Restart/New Game Functionality**\n\n**Already Implemented:** ✅ `resetGame()` exists in `gameStore.ts:165-168`\n\n**Enhancements Needed:**\n```typescript\n// Update resetGame to ensure timer is cleared\nresetGame: () => {\n  const state = get();\n  get().stopTimer(); // Ensure timer is stopped\n  get().initializeGame(state.difficulty);\n},\n\n// Add newGameWithDifficulty for modal\nnewGameWithDifficulty: (difficulty: DifficultyConfig) => {\n  get().stopTimer();\n  get().initializeGame(difficulty);\n},\n```\n\n**Integration Points:**\n- Call `resetGame()` from modal \"Play Again\" button\n- Call `newGameWithDifficulty()` from difficulty selector (Sprint 4)\n\n---\n\n### **Task 9: Bold Design System**\n\n**Tailwind Configuration:**\n```typescript\n// tailwind.config.js - Add custom design tokens\nmodule.exports = {\n  theme: {\n    extend: {\n      fontFamily: {\n        sans: ['Inter', 'system-ui', 'sans-serif'], // Bold, modern font\n      },\n      colors: {\n        primary: {\n          50: '#f0f9ff',\n          // ... full scale\n          600: '#0284c7',\n        },\n      },\n      borderWidth: {\n        '3': '3px',\n      },\n    },\n  },\n};\n```\n\n**Component-Level Styling Standards:**\n\n| Element | Classes | Rationale |\n|---------|---------|-----------|\n| **Headings** | `text-4xl font-extrabold` | High impact, clear hierarchy |\n| **Body Text** | `text-lg font-medium` | Readable without strain |\n| **Buttons** | `px-8 py-4 text-xl font-bold border-3 rounded-xl shadow-lg hover:scale-105 transition-transform` | Prominent, tactile feel |\n| **Containers** | `p-6 border-4 border-gray-900 rounded-2xl shadow-2xl` | Strong definition, depth |\n| **Grid Cells** | Already styled - enhance borders to `border-2` | Clearer cell boundaries |\n\n**Color Strategy:**\n- **High Contrast:** Black borders (`border-gray-900`), white backgrounds\n- **State Colors:** Green (win/safe), Red (loss/danger), Yellow (flag/warning), Blue (info/numbers)\n- **Avoid:** Pastels, low-contrast grays\n\n**Spacing:**\n- Use Tailwind's default scale: `gap-4`, `p-6`, `mb-8`\n- Generous whitespace: Never less than `gap-2` between interactive elements\n\n---\n\n## 3. Risk Assessment & Mitigation\n\n### **High-Risk Items**\n\n| Risk | Impact | Probability | Mitigation Strategy |\n|------|--------|-------------|---------------------|\n| **Timer Memory Leak** | High - Performance degradation over time | Medium | Use proper cleanup in `useEffect`, clear intervals in store, test with React DevTools Profiler |\n| **Layout Shifts** | Medium - Poor UX | Medium | Fixed-height containers (`min-h-*`), CSS containment, test with Lighthouse CLS |\n| **Modal Accessibility** | Medium - WCAG violations | High | Implement focus trap, keyboard navigation, ARIA attributes, test with screen reader |\n| **State Synchronization** | High - Game state corruption | Low | Already mitigated by Zustand (single source of truth), add dev-time state validators |\n| **Mobile Performance** | Medium - Slow animations | Low | Use CSS transforms (GPU-accelerated), avoid layout thrashing, test on real devices |\n\n### **Medium-Risk Items**\n\n| Risk | Mitigation |\n|------|------------|\n| Over-styling breaks mobile usability | Test on physical devices early; use `sm:` breakpoints consistently |\n| Timer desync with game state | Always call `stopTimer()` when changing game status; add state guards |\n| Modal blocks game board unnecessarily | Add semi-transparent backdrop; allow users to see final board state |\n\n---\n\n## 4. Resource Planning & Time Estimates\n\n### **Complexity Assessment**\n\n| Task | Complexity | Estimated Time | Dependencies |\n|------|-----------|----------------|--------------|\n| 1. Timer System | Medium | 3-4 hours | None |\n| 2. Mine Counter | Low | 0.5 hours | None (already exists) |\n| 3. Move Counter | Low | 0.5 hours | None (already exists) |\n| 4. Stats Panel | Medium | 2-3 hours | Tasks 1-3 |\n| 5. Win Detection | Low | 1 hour | Task 4 (for timer stop) |\n| 6. Loss Enhancement | Medium | 2-3 hours | Existing reveal logic |\n| 7. End-Game Modal | High | 4-5 hours | Tasks 5-6, accessibility |\n| 8. Restart Logic | Low | 1 hour | Task 7 |\n| 9. Design System | High | 5-6 hours | All tasks (continuous) |\n\n**Total Estimate:** 19-25 hours (~3-4 days for single developer)\n\n### **Skill Requirements**\n- **React Hooks:** `useState`, `useEffect`, `useRef` (timer management)\n- **Zustand State Management:** Action creators, selectors\n- **Tailwind CSS:** Responsive design, custom utilities\n- **Accessibility:** ARIA, focus management\n- **TypeScript:** Type safety for all new interfaces\n\n---\n\n## 5. Integration Points\n\n### **Cross-Sprint Dependencies**\n\n```\nSprint 2 (Completed) → Sprint 3 (Current)\n├─ gameStore.ts → Add timer actions, enhance resetGame\n├─ Cell.tsx → Add incorrect flag styling\n└─ App.tsx → Replace basic stats with StatsPanel, add modal\n\nSprint 3 → Sprint 4 (Difficulty Levels)\n└─ EndGameModal → \"Change Difficulty\" button → DifficultySelector\n\nSprint 3 → Sprint 6 (Persistence)\n└─ Timer state → localStorage serialization\n```\n\n### **Component Interaction Map**\n\n```\nApp.tsx\n├─ StatsPanel.tsx ← Reads: elapsedTime, flagCount, moveCount\n├─ Grid.tsx\n│   └─ Cell.tsx ← Triggers: revealCell, toggleFlag\n└─ EndGameModal.tsx ← Reads: gameStatus, elapsedTime, moveCount\n    └─ Triggers: resetGame, (future: changeDifficulty)\n\ngameStore.ts\n├─ Timer Logic: startTimer, stopTimer, tickTimer\n├─ Game Actions: revealCell, toggleFlag, resetGame\n└─ State: elapsedTime, moveCount, gameStatus, flagCount\n```\n\n---\n\n## 6. Quality Gates & Validation Criteria\n\n### **Task Completion Checklist**\n\nEach task must pass these checks before being marked complete:\n\n#### **Functional Tests**\n- [ ] Timer starts on first cell reveal\n- [ ] Timer stops on win/loss\n- [ ] Timer displays correct format (MM:SS)\n- [ ] Mine counter updates on flag placement/removal\n- [ ] Mine counter handles negative values gracefully\n- [ ] Move counter increments on reveals only (not flags)\n- [ ] Cascade reveals count as single move\n- [ ] Win detection triggers on last safe cell\n- [ ] Loss reveals all mines correctly\n- [ ] Triggered mine is visually distinct\n- [ ] Incorrect flags are shown on loss\n- [ ] Modal appears immediately on game end\n- [ ] Modal displays correct statistics\n- [ ] Restart button works without page refresh\n- [ ] No state leaks between games\n\n#### **UI/UX Tests**\n- [ ] Stats panel visible and clear on all devices\n- [ ] No layout shifts during stat updates\n- [ ] Modal is centered and responsive\n- [ ] Bold design system applied consistently\n- [ ] High contrast ratios (WCAG AA: 4.5:1 for text)\n- [ ] Touch targets ≥44x44px on mobile\n- [ ] Animations smooth (no jank)\n\n#### **Accessibility Tests**\n- [ ] Modal traps focus correctly\n- [ ] Escape key closes modal\n- [ ] Tab navigation works in logical order\n- [ ] Screen reader announces game state changes\n- [ ] ARIA labels present on interactive elements\n- [ ] Color not sole indicator of state\n\n#### **Technical Tests**\n- [ ] No console errors/warnings\n- [ ] No memory leaks (test with React DevTools)\n- [ ] TypeScript compiles without errors\n- [ ] Linter passes (ESLint)\n- [ ] Bundle size increase <50KB\n- [ ] Lighthouse performance score >90\n\n---\n\n## 7. Rollback Strategy\n\n### **Git Branch Strategy**\n```bash\nmain\n└─ sprint-3-statistics\n   ├─ feature/timer-system\n   ├─ feature/stats-panel\n   ├─ feature/endgame-modal\n   └─ feature/design-system\n```\n\n**Merge Order:**\n1. `feature/timer-system` → `sprint-3-statistics` (Test thoroughly - highest risk)\n2. `feature/stats-panel` → `sprint-3-statistics`\n3. `feature/endgame-modal` → `sprint-3-statistics`\n4. `feature/design-system` → `sprint-3-statistics` (Continuous merges)\n5. `sprint-3-statistics` → `main` (Final QA gate)\n\n### **Rollback Triggers**\n- Timer causes memory leak or performance degradation\n- Modal breaks mobile UX\n- Design changes make game unplayable\n- Critical accessibility violations\n\n### **Rollback Process**\n```bash\n# If issue found in specific feature\ngit revert <feature-commit-hash>\n\n# If sprint branch is unstable\ngit reset --hard origin/main\n# Re-apply successful features one by one\n\n# Keep sprint-3-statistics branch for debugging\ngit branch sprint-3-debug <failed-commit-hash>\n```\n\n---\n\n## 8. Testing Strategy\n\n### **Unit Tests** (Optional - not required per Sprint 3, but recommended)\n```typescript\n// Example: Timer utility tests\ndescribe('formatTime', () => {\n  it('formats seconds correctly', () => {\n    expect(formatTime(65)).toBe('01:05');\n    expect(formatTime(3661)).toBe('01:01:01');\n  });\n});\n```\n\n### **Integration Tests**\nFocus on **manual testing** with these scenarios:\n\n1. **Happy Path:**\n   - Start game → Reveal cells → Win → Check modal stats → Restart → Verify clean state\n\n2. **Loss Path:**\n   - Start game → Hit mine → Verify all mines revealed → Check triggered mine styling → Restart\n\n3. **Timer Edge Cases:**\n   - Rapid clicking during first reveal (should not create multiple timers)\n   - Leave game idle for 10+ minutes (verify timer still accurate)\n   - Pause via browser tab switch (timer should continue)\n\n4. **Mobile Specific:**\n   - Stats panel layout in portrait/landscape\n   - Modal touch interactions\n   - Long-press doesn't trigger timer visual feedback conflicts\n\n### **Browser/Device Matrix**\n| Device | Browser | Priority |\n|--------|---------|----------|\n| Desktop | Chrome | High |\n| Desktop | Firefox | Medium |\n| Desktop | Safari | Medium |\n| Mobile iOS | Safari | High |\n| Mobile Android | Chrome | High |\n| Tablet | Chrome/Safari | Low |\n\n---\n\n## 9. Success Metrics\n\n### **Sprint Completion Criteria**\n\n✅ **All 9 tasks** marked as complete\n✅ **Zero critical bugs** (game-breaking issues)\n✅ **Lighthouse scores:** Performance >90, Accessibility >90\n✅ **Visual regression:** Design system applied to all UI\n✅ **User testing:** 3+ testers confirm smooth gameplay\n✅ **Code review:** Peer-reviewed and approved\n\n### **Post-Sprint Health Check**\n- Bundle size increase: **Target <50KB** (timer + modal + styles)\n- First Contentful Paint: **<1.5s** (maintain current performance)\n- Time to Interactive: **<2.5s**\n- Console errors in production build: **0**\n\n---\n\n## 10. Next Sprint Preparation\n\n### **Sprint 4 Handoff Checklist**\n- [ ] Document difficulty configuration API in `gameStore.ts`\n- [ ] Export `newGameWithDifficulty` action for difficulty selector\n- [ ] Ensure modal \"Change Difficulty\" button has stub handler\n- [ ] Create design mockup for difficulty selector modal\n- [ ] Test grid responsiveness with Expert difficulty (30x16) - informs Sprint 4 responsive work\n\n---\n\n## Appendix: File Structure Post-Sprint 3\n\n```\nsrc/\n├── components/\n│   ├── Cell.tsx (✏️ Enhanced - incorrect flag styling)\n│   ├── Grid.tsx (No changes)\n│   ├── StatsPanel.tsx (🆕 NEW)\n│   └── EndGameModal.tsx (🆕 NEW)\n├── store/\n│   └── gameStore.ts (✏️ Enhanced - timer actions, reset logic)\n├── types/\n│   └── game.types.ts (✏️ Enhanced - isIncorrectFlag field)\n├── utils/\n│   ├── gridUtils.ts (No changes)\n│   ├── mineUtils.ts (No changes)\n│   ├── revealUtils.ts (✏️ Enhanced - incorrect flags)\n│   └── formatUtils.ts (🆕 NEW - formatTime function)\n├── App.tsx (✏️ Major refactor - integrate StatsPanel, EndGameModal)\n└── index.css (✏️ Enhanced - bold design tokens)\n```\n\n---\n\n## Final Recommendations\n\n### **Development Best Practices**\n\n1. **Start with Timer:** Highest technical risk - get it stable early\n2. **Commit Frequently:** Small, atomic commits per sub-feature\n3. **Test on Real Devices:** Especially modal and stats panel responsiveness\n4. **Design System Last:** Apply after all components exist to avoid rework\n5. **Accessibility First:** Easier to build in than retrofit\n\n### **Code Quality Standards**\n\n```typescript\n// Example: Well-documented timer action\n/**\n * Starts the game timer interval\n * Called automatically when game status changes to 'in-progress'\n * Guards against duplicate intervals\n * @see stopTimer for cleanup\n */\nstartTimer: () => {\n  const state = get();\n  if (state.timerInterval !== null) {\n    console.warn('[Timer] Attempted to start duplicate interval');\n    return;\n  }\n  // ... implementation\n}\n```\n\n### **Review Gates**\n\nBefore merging to `main`:\n1. Self-review against this execution plan\n2. Peer code review (if available)\n3. Cross-browser manual testing\n4. Accessibility audit with Axe DevTools\n5. Performance profiling with React DevTools\n6. Final Lighthouse audit\n\n---\n\n**Estimated Sprint Duration:** 3-4 days (single developer) | 2-3 days (pair programming)\n\n**Confidence Level:** High ✅ - All dependencies are in place, no external blockers, clear requirements.",
+      "sprintId": "sprint_1770111649899_3"
+    },
+    {
+      "id": "log_1770115420775_dq46fvhji",
+      "timestamp": "2026-02-03T10:43:40.775Z",
+      "type": "info",
+      "message": "Planning phase",
+      "details": "Creating execution plan using planning model...",
+      "sprintId": "sprint_1770111649899_3"
+    },
+    {
+      "id": "log_1770115420773_pwwl4diia",
+      "timestamp": "2026-02-03T10:43:40.773Z",
+      "type": "info",
+      "message": "Sprint execution started",
+      "details": "Starting execution of 9 task(s) in Sprint 3: Real-Time Statistics & Game UI",
+      "sprintId": "sprint_1770111649899_3"
+    },
+    {
+      "id": "log_1770114982672_fba1d1l0e",
+      "timestamp": "2026-02-03T10:36:22.672Z",
+      "type": "success",
+      "message": "Manager notified",
+      "details": "Manager has been informed and will commit changes",
+      "sprintId": "sprint_1770111649899_2"
+    },
+    {
+      "id": "log_1770114982672_564szof0y",
+      "timestamp": "2026-02-03T10:36:22.672Z",
+      "type": "info",
+      "message": "Notifying manager",
+      "details": "Informing manager of sprint completion for git commit...",
+      "sprintId": "sprint_1770111649899_2"
+    },
+    {
+      "id": "log_1770114982672_zs039nipw",
+      "timestamp": "2026-02-03T10:36:22.672Z",
+      "type": "success",
+      "message": "Sprint results saved",
+      "details": "Project state updated via events",
+      "sprintId": "sprint_1770111649899_2"
+    },
+    {
+      "id": "log_1770114982672_a5cefybam",
+      "timestamp": "2026-02-03T10:36:22.672Z",
+      "type": "info",
+      "message": "Saving sprint results",
+      "details": "Sprint completion event dispatched...",
+      "sprintId": "sprint_1770111649899_2"
+    },
+    {
+      "id": "log_1770114982633_9zvbgy8ko",
+      "timestamp": "2026-02-03T10:36:22.633Z",
+      "type": "success",
+      "message": "Sprint completed",
+      "details": "✅ Sprint \"Sprint 2: Game Interactions & State Management\" completed successfully (9/9 tasks)",
+      "sprintId": "sprint_1770111649899_2"
+    },
+    {
+      "id": "log_1770114981486_67xvux5vr",
+      "timestamp": "2026-02-03T10:36:21.486Z",
+      "type": "success",
+      "message": "Task completed",
+      "details": "✅ Set Up Global State Management with Zustand or React Context",
+      "sprintId": "sprint_1770111649899_2"
+    },
+    {
       "id": "log_1770114640432_cqws7x8zr",
       "timestamp": "2026-02-03T10:30:40.432Z",
       "type": "info",
@@ -1296,6 +1585,6 @@
       "sprintId": "sprint_1770111649899_1"
     }
   ],
-  "timestamp": "2026-02-03T10:36:10.574Z",
+  "timestamp": "2026-02-03T10:52:47.771Z",
   "projectPath": "/Users/raminhedayatpour/Documents/VibeProjects/minesweeper"
 }

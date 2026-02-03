@@ -11,11 +11,17 @@ import { DIFFICULTY_PRESETS } from '../types/game.types';
  * Combines GameState with action methods for state management
  */
 interface GameStore extends GameState {
+  // Timer state (not persisted in GameState)
+  timerInterval: number | null;
+
   // Actions
   initializeGame: (difficulty: DifficultyConfig) => void;
   revealCell: (coordinate: Coordinate) => void;
   toggleFlag: (coordinate: Coordinate) => void;
   resetGame: () => void;
+  startTimer: () => void;
+  stopTimer: () => void;
+  tickTimer: () => void;
 }
 
 /**
@@ -35,12 +41,16 @@ export const useGameStore = create<GameStore>()(
       flagCount: 0,
       elapsedTime: 0,
       moveCount: 0,
+      timerInterval: null,
 
       /**
        * Initialize or reset the game with a new difficulty
        * @param difficulty - The difficulty configuration to use
        */
       initializeGame: (difficulty) => {
+        // Stop timer if running
+        get().stopTimer();
+
         set({
           grid: createEmptyGrid(difficulty),
           gameStatus: 'not-started',
@@ -89,6 +99,9 @@ export const useGameStore = create<GameStore>()(
             coordinate
           );
           newStatus = 'in-progress';
+
+          // Start the timer
+          setTimeout(() => get().startTimer(), 0);
         }
 
         // Reveal cell with cascade logic
@@ -104,10 +117,15 @@ export const useGameStore = create<GameStore>()(
           finalStatus = 'won';
         }
 
-        // Reveal all mines on loss
+        // Reveal all mines on loss, marking triggered mine
         let finalGrid = result.grid;
         if (finalStatus === 'lost') {
-          finalGrid = revealAllMines(result.grid);
+          finalGrid = revealAllMines(result.grid, coordinate);
+        }
+
+        // Stop timer if game ended
+        if (finalStatus === 'won' || finalStatus === 'lost') {
+          get().stopTimer();
         }
 
         set({
@@ -165,6 +183,56 @@ export const useGameStore = create<GameStore>()(
       resetGame: () => {
         const state = get();
         get().initializeGame(state.difficulty);
+      },
+
+      /**
+       * Start the game timer
+       * Called automatically when game status changes to 'in-progress'
+       * Guards against duplicate intervals
+       */
+      startTimer: () => {
+        const state = get();
+
+        // Guard: prevent duplicate intervals
+        if (state.timerInterval !== null) {
+          console.warn('[Timer] Attempted to start duplicate interval');
+          return;
+        }
+
+        const intervalId = setInterval(() => {
+          const currentState = get();
+
+          // Only increment if game is in progress
+          if (currentState.gameStatus === 'in-progress') {
+            get().tickTimer();
+          } else {
+            // Auto-stop if game status changed
+            get().stopTimer();
+          }
+        }, 1000);
+
+        set({ timerInterval: intervalId });
+      },
+
+      /**
+       * Stop the game timer and clear interval
+       */
+      stopTimer: () => {
+        const state = get();
+
+        if (state.timerInterval !== null) {
+          clearInterval(state.timerInterval);
+          set({ timerInterval: null });
+        }
+      },
+
+      /**
+       * Increment elapsed time by 1 second
+       * Called by timer interval
+       */
+      tickTimer: () => {
+        const state = get();
+        set({ elapsedTime: state.elapsedTime + 1 });
       },
     }),
     { name: 'GameStore' }

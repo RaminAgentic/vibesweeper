@@ -18,6 +18,7 @@ export interface Cell {
   adjacentMines: number;
   status: CellStatus;
   isTriggeredMine?: boolean; // For showing which mine caused loss
+  isIncorrectFlag?: boolean; // For showing wrong flags on loss
 }
 
 /**

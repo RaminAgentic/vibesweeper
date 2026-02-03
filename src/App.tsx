@@ -1,79 +1,109 @@
-import { DIFFICULTY_PRESETS } from './types/game.types';
 import { useGameStore } from './store/gameStore';
 import { Grid } from './components/Grid';
+import { StatsPanel } from './components/StatsPanel';
+import { EndGameModal } from './components/EndGameModal';
 
 function App() {
-  const { grid, gameStatus, difficulty, moveCount, revealedCount, flagCount, initializeGame } = useGameStore();
+  const {
+    grid,
+    gameStatus,
+    difficulty,
+    elapsedTime,
+    moveCount,
+    resetGame,
+  } = useGameStore();
 
-  const remainingMines = difficulty.mines - flagCount;
+  const showModal = gameStatus === 'won' || gameStatus === 'lost';
 
   const getStatusMessage = () => {
     switch (gameStatus) {
       case 'not-started':
         return 'Click any cell to start!';
       case 'in-progress':
-        return 'Game in progress...';
+        return 'Find all the mines!';
       case 'won':
-        return '🎉 You won! Congratulations!';
+        return '';
       case 'lost':
-        return '💥 Game Over! You hit a mine.';
+        return '';
       default:
         return '';
     }
   };
 
-  const getStatusColor = () => {
-    switch (gameStatus) {
-      case 'won':
-        return 'text-green-600';
-      case 'lost':
-        return 'text-red-600';
-      default:
-        return 'text-gray-700';
-    }
+  // Placeholder for Sprint 4 - difficulty selector
+  const handleChangeDifficulty = () => {
+    alert('Difficulty selector coming in Sprint 4!');
+    resetGame();
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-8">
-      <h1 className="text-4xl font-bold mb-8 text-gray-800">Minesweeper</h1>
+    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex flex-col items-center justify-center p-4 sm:p-8">
+      {/* Header */}
+      <h1 className="text-5xl sm:text-6xl font-extrabold mb-6 text-gray-900 tracking-tight">
+        Minesweeper
+      </h1>
 
-      <div className="mb-6 text-center">
-        <p className={`text-xl font-semibold mb-2 ${getStatusColor()}`}>
+      {/* Status Message */}
+      {!showModal && (
+        <p className="text-xl font-bold mb-6 text-gray-700">
           {getStatusMessage()}
         </p>
-        <div className="flex gap-4 justify-center text-sm text-gray-600">
-          <p>
-            <span className="font-semibold">Moves:</span> {moveCount}
-          </p>
-          <p>
-            <span className="font-semibold">Remaining Mines:</span> {remainingMines}
-          </p>
-          <p>
-            <span className="font-semibold">Revealed:</span> {revealedCount}/
-            {difficulty.width * difficulty.height - difficulty.mines}
-          </p>
-        </div>
+      )}
+
+      {/* Statistics Panel */}
+      <div className="mb-6 w-full max-w-2xl">
+        <StatsPanel />
       </div>
 
+      {/* Game Grid */}
       <div className="mb-6">
         <Grid grid={grid} />
       </div>
 
-      <div className="flex gap-4">
+      {/* Control Buttons */}
+      <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full max-w-md">
         <button
-          onClick={() => initializeGame(DIFFICULTY_PRESETS.beginner)}
-          className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors font-semibold"
+          onClick={resetGame}
+          className="flex-1 px-8 py-4 bg-blue-600 text-white font-extrabold text-lg
+                     rounded-xl shadow-lg hover:bg-blue-700 hover:scale-105
+                     active:scale-95 transition-all duration-150
+                     focus:outline-none focus:ring-4 focus:ring-blue-300"
+          aria-label="Start new game with same difficulty"
         >
           New Game
         </button>
+
+        <button
+          onClick={handleChangeDifficulty}
+          className="flex-1 px-8 py-4 bg-gray-700 text-white font-bold text-lg
+                     rounded-xl shadow-lg hover:bg-gray-800 hover:scale-105
+                     active:scale-95 transition-all duration-150
+                     focus:outline-none focus:ring-4 focus:ring-gray-500"
+          aria-label="Change game difficulty"
+        >
+          Change Difficulty
+        </button>
       </div>
 
-      <div className="mt-8 text-xs text-gray-500 text-center max-w-md">
-        <p>Sprint 2: Interactive controls with flag placement</p>
-        <p className="mt-1">
-          Left-click to reveal • Right-click to flag • Long-press on mobile to flag
-        </p>
+      {/* Instructions */}
+      <div className="mt-8 text-sm text-gray-600 text-center max-w-md space-y-1">
+        <p className="font-semibold">How to Play:</p>
+        <p>Desktop: Left-click to reveal • Right-click to flag</p>
+        <p>Mobile: Tap to reveal • Long-press to flag</p>
       </div>
+
+      {/* End-Game Modal */}
+      <EndGameModal
+        isOpen={showModal}
+        result={gameStatus === 'won' ? 'won' : 'lost'}
+        stats={{
+          time: elapsedTime,
+          moves: moveCount,
+          difficulty: difficulty.level,
+        }}
+        onRestart={resetGame}
+        onChangeDifficulty={handleChangeDifficulty}
+      />
     </div>
   );
 }
