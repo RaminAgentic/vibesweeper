@@ -5,6 +5,8 @@ import { createEmptyGrid } from '../utils/gridUtils';
 import { placeMinesAndCalculate } from '../utils/mineUtils';
 import { revealCellWithCascade, revealAllMines } from '../utils/revealUtils';
 import { DIFFICULTY_PRESETS } from '../types/game.types';
+import { saveGameState, loadGameState, clearGameState } from '../utils/persistence';
+import { debounce } from '../utils/debounce';
 
 /**
  * Extended game store interface with actions
@@ -28,6 +30,7 @@ interface GameStore extends GameState {
   startTimer: () => void;
   stopTimer: () => void;
   tickTimer: () => void;
+  hydrate: () => void;
 }
 
 /**
@@ -58,6 +61,9 @@ export const useGameStore = create<GameStore>()(
       initializeGame: (difficulty) => {
         // Stop timer if running
         get().stopTimer();
+
+        // Clear persisted state when starting new game
+        clearGameState();
 
         const state = get();
         let config: DifficultyConfig;
@@ -303,7 +309,76 @@ export const useGameStore = create<GameStore>()(
 
         get().initializeGame(customConfig);
       },
+
+      /**
+       * Hydrate state from localStorage
+       * Called on app mount to restore saved game
+       */
+      hydrate: () => {
+        const saved = loadGameState();
+
+        if (!saved) {
+          return;
+        }
+
+        // Only restore if game was in progress
+        if (saved.gameState.gameStatus === 'in-progress') {
+          set({
+            grid: saved.gameState.grid,
+            gameStatus: saved.gameState.gameStatus,
+            difficulty: saved.gameState.difficulty,
+            isFirstClick: saved.gameState.isFirstClick,
+            revealedCount: saved.gameState.revealedCount,
+            flagCount: saved.gameState.flagCount,
+            elapsedTime: saved.gameState.elapsedTime,
+            moveCount: saved.gameState.moveCount,
+            selectedDifficulty: saved.selectedDifficulty,
+            customSettings: saved.customSettings,
+          });
+
+          // Resume timer if game was in progress
+          setTimeout(() => get().startTimer(), 0);
+        }
+      },
     }),
     { name: 'GameStore' }
   )
 );
+
+/**
+ * Debounced save function (300ms delay)
+ * Prevents excessive localStorage writes
+ */
+const debouncedSave = debounce((
+  gameState: GameState,
+  selectedDifficulty: DifficultyLevel,
+  customSettings: DifficultyConfig | null
+) => {
+  // Only save if game is in progress
+  if (gameState.gameStatus === 'in-progress') {
+    saveGameState(gameState, selectedDifficulty, customSettings);
+  } else if (gameState.gameStatus === 'won' || gameState.gameStatus === 'lost') {
+    // Clear saved state when game ends
+    clearGameState();
+  }
+}, 300);
+
+/**
+ * Subscribe to store changes and auto-save
+ */
+useGameStore.subscribe((state) => {
+  const { grid, gameStatus, difficulty, isFirstClick, revealedCount, flagCount, elapsedTime, moveCount, selectedDifficulty, customSettings } = state;
+
+  const gameState: GameState = {
+    grid,
+    gameStatus,
+    difficulty,
+    isFirstClick,
+    revealedCount,
+    flagCount,
+    elapsedTime,
+    moveCount,
+  };
+
+  debouncedSave(gameState, selectedDifficulty, customSettings);
+});
