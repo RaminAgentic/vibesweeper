@@ -1,14 +1,14 @@
 import { DIFFICULTY_PRESETS } from './types/game.types';
-import { useGameState } from './hooks/useGameState';
+import { useGameStore } from './store/gameStore';
 import { Grid } from './components/Grid';
 
 function App() {
-  const { gameState, revealCell, initializeGame } = useGameState(
-    DIFFICULTY_PRESETS.beginner
-  );
+  const { grid, gameStatus, difficulty, moveCount, revealedCount, flagCount, initializeGame } = useGameStore();
+
+  const remainingMines = difficulty.mines - flagCount;
 
   const getStatusMessage = () => {
-    switch (gameState.gameStatus) {
+    switch (gameStatus) {
       case 'not-started':
         return 'Click any cell to start!';
       case 'in-progress':
@@ -23,7 +23,7 @@ function App() {
   };
 
   const getStatusColor = () => {
-    switch (gameState.gameStatus) {
+    switch (gameStatus) {
       case 'won':
         return 'text-green-600';
       case 'lost':
@@ -43,23 +43,20 @@ function App() {
         </p>
         <div className="flex gap-4 justify-center text-sm text-gray-600">
           <p>
-            <span className="font-semibold">Moves:</span> {gameState.moveCount}
+            <span className="font-semibold">Moves:</span> {moveCount}
           </p>
           <p>
-            <span className="font-semibold">Mines:</span> {gameState.difficulty.mines}
+            <span className="font-semibold">Remaining Mines:</span> {remainingMines}
           </p>
           <p>
-            <span className="font-semibold">Revealed:</span> {gameState.revealedCount}/
-            {gameState.difficulty.width * gameState.difficulty.height - gameState.difficulty.mines}
+            <span className="font-semibold">Revealed:</span> {revealedCount}/
+            {difficulty.width * difficulty.height - difficulty.mines}
           </p>
         </div>
       </div>
 
       <div className="mb-6">
-        <Grid
-          grid={gameState.grid}
-          onCellClick={(row, col) => revealCell({ row, col })}
-        />
+        <Grid grid={grid} />
       </div>
 
       <div className="flex gap-4">
@@ -72,9 +69,9 @@ function App() {
       </div>
 
       <div className="mt-8 text-xs text-gray-500 text-center max-w-md">
-        <p>Sprint 1: Core game mechanics implemented</p>
+        <p>Sprint 2: Interactive controls with flag placement</p>
         <p className="mt-1">
-          Click cells to reveal them. First click is always safe!
+          Left-click to reveal • Right-click to flag • Long-press on mobile to flag
         </p>
       </div>
     </div>

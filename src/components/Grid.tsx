@@ -3,14 +3,13 @@ import { Cell } from './Cell';
 
 interface GridProps {
   grid: GridType;
-  onCellClick: (row: number, col: number) => void;
 }
 
 /**
  * Grid component that renders the Minesweeper board
- * Manages layout and passes click events to cells
+ * Manages layout - cells handle their own interactions via store
  */
-export function Grid({ grid, onCellClick }: GridProps) {
+export function Grid({ grid }: GridProps) {
   if (grid.length === 0 || grid[0].length === 0) {
     return <div>Loading...</div>;
   }
@@ -26,7 +25,6 @@ export function Grid({ grid, onCellClick }: GridProps) {
         <Cell
           key={`${cell.row}-${cell.col}`}
           cell={cell}
-          onClick={() => onCellClick(cell.row, cell.col)}
         />
       ))}
     </div>
