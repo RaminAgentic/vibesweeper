@@ -1,338 +1,64 @@
 {
-  "sessionId": "session_1770113100170",
-  "sessionUrl": "http://localhost:5173",
+  "sessionId": "session_1770116569995",
+  "sessionUrl": "http://localhost:5174",
   "sessionTitle": "Unknown",
-  "lastUpdated": "2026-02-03T10:50:40.513Z",
+  "lastUpdated": "2026-02-03T11:02:51.854Z",
   "logs": [
     {
       "level": "log",
       "message": "[vite] connecting...",
-      "timestamp": "2026-02-03T10:33:22.914Z",
+      "timestamp": "2026-02-03T11:02:51.235Z",
       "line": 495,
       "sourceId": "http://localhost:5174/@vite/client"
     },
     {
       "level": "log",
       "message": "[vite] connected.",
-      "timestamp": "2026-02-03T10:33:23.026Z",
+      "timestamp": "2026-02-03T11:02:51.236Z",
       "line": 614,
       "sourceId": "http://localhost:5174/@vite/client"
     },
     {
       "level": "warning",
       "message": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
-      "timestamp": "2026-02-03T10:33:23.198Z",
-      "line": 20103,
-      "sourceId": "http://localhost:5174/node_modules/.vite/deps/react-dom_client.js?v=2d6749ae"
-    },
-    {
-      "level": "error",
-      "message": "%cElectron Security Warning (allowRunningInsecureContent) font-weight: bold; This renderer process has \"allowRunningInsecureContent\"\n  enabled. This exposes users of this app to severe security risks.\n\n  \nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:33:23.223Z",
-      "line": 2,
-      "sourceId": "node:electron/js2c/renderer_init"
-    },
-    {
-      "level": "error",
-      "message": "%cElectron Security Warning (experimentalFeatures) font-weight: bold; This renderer process has \"experimentalFeatures\" enabled.\n  This exposes users of this app to some security risk. If you do not need\n  this feature, you should disable it.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:33:23.224Z",
-      "line": 2,
-      "sourceId": "node:electron/js2c/renderer_init"
-    },
-    {
-      "level": "error",
-      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:33:23.224Z",
-      "line": 2,
-      "sourceId": "node:electron/js2c/renderer_init"
-    },
-    {
-      "level": "warning",
-      "message": "Console capture initialized",
-      "timestamp": "2026-02-03T10:33:23.224Z",
-      "line": 8,
-      "sourceId": ""
-    },
-    {
-      "level": "warning",
-      "message": "Console capture initialized",
-      "timestamp": "2026-02-03T10:33:23.289Z",
-      "line": 8,
-      "sourceId": ""
-    },
-    {
-      "level": "warning",
-      "message": "Flag placed: true",
-      "timestamp": "2026-02-03T10:33:52.521Z",
-      "line": 8,
-      "sourceId": ""
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/App.tsx",
-      "timestamp": "2026-02-03T10:46:55.053Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/index.css",
-      "timestamp": "2026-02-03T10:46:55.058Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/components/Cell.tsx",
-      "timestamp": "2026-02-03T10:46:55.058Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "warning",
-      "message": "[vite] server connection lost. Polling for restart...",
-      "timestamp": "2026-02-03T10:47:00.453Z",
-      "line": 8,
-      "sourceId": ""
-    },
-    {
-      "level": "debug",
-      "message": "[hmr] Failed to reload /src/App.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
-      "timestamp": "2026-02-03T10:47:00.461Z",
-      "line": 28,
-      "sourceId": ""
-    },
-    {
-      "level": "debug",
-      "message": "[hmr] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)",
-      "timestamp": "2026-02-03T10:47:00.483Z",
-      "line": 28,
-      "sourceId": ""
-    },
-    {
-      "level": "debug",
-      "message": "[hmr] Failed to reload /src/components/Cell.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)",
-      "timestamp": "2026-02-03T10:47:00.483Z",
-      "line": 28,
-      "sourceId": ""
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/App.tsx",
-      "timestamp": "2026-02-03T10:47:00.486Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/index.css",
-      "timestamp": "2026-02-03T10:47:00.487Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/components/Cell.tsx",
-      "timestamp": "2026-02-03T10:47:00.487Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] connecting...",
-      "timestamp": "2026-02-03T10:49:46.063Z",
-      "line": 495,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] connected.",
-      "timestamp": "2026-02-03T10:49:46.109Z",
-      "line": 614,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "warning",
-      "message": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
-      "timestamp": "2026-02-03T10:49:46.383Z",
+      "timestamp": "2026-02-03T11:02:51.236Z",
       "line": 20103,
       "sourceId": "http://localhost:5174/node_modules/.vite/deps/react-dom_client.js?v=ddcd7299"
     },
     {
       "level": "error",
       "message": "%cElectron Security Warning (allowRunningInsecureContent) font-weight: bold; This renderer process has \"allowRunningInsecureContent\"\n  enabled. This exposes users of this app to severe security risks.\n\n  \nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:49:46.387Z",
+      "timestamp": "2026-02-03T11:02:51.236Z",
       "line": 2,
       "sourceId": "node:electron/js2c/renderer_init"
     },
     {
       "level": "error",
       "message": "%cElectron Security Warning (experimentalFeatures) font-weight: bold; This renderer process has \"experimentalFeatures\" enabled.\n  This exposes users of this app to some security risk. If you do not need\n  this feature, you should disable it.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:49:46.387Z",
+      "timestamp": "2026-02-03T11:02:51.236Z",
       "line": 2,
       "sourceId": "node:electron/js2c/renderer_init"
     },
     {
       "level": "error",
       "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:49:46.387Z",
+      "timestamp": "2026-02-03T11:02:51.236Z",
       "line": 2,
       "sourceId": "node:electron/js2c/renderer_init"
     },
     {
       "level": "warning",
       "message": "Console capture initialized",
-      "timestamp": "2026-02-03T10:49:46.391Z",
-      "line": 8,
-      "sourceId": ""
-    },
-    {
-      "level": "log",
-      "message": "[vite] connecting...",
-      "timestamp": "2026-02-03T10:49:53.875Z",
-      "line": 495,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] connected.",
-      "timestamp": "2026-02-03T10:49:53.875Z",
-      "line": 614,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "warning",
-      "message": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
-      "timestamp": "2026-02-03T10:49:53.876Z",
-      "line": 20103,
-      "sourceId": "http://localhost:5174/node_modules/.vite/deps/react-dom_client.js?v=ddcd7299"
-    },
-    {
-      "level": "error",
-      "message": "%cElectron Security Warning (allowRunningInsecureContent) font-weight: bold; This renderer process has \"allowRunningInsecureContent\"\n  enabled. This exposes users of this app to severe security risks.\n\n  \nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:49:53.876Z",
-      "line": 2,
-      "sourceId": "node:electron/js2c/renderer_init"
-    },
-    {
-      "level": "error",
-      "message": "%cElectron Security Warning (experimentalFeatures) font-weight: bold; This renderer process has \"experimentalFeatures\" enabled.\n  This exposes users of this app to some security risk. If you do not need\n  this feature, you should disable it.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:49:53.876Z",
-      "line": 2,
-      "sourceId": "node:electron/js2c/renderer_init"
-    },
-    {
-      "level": "error",
-      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged.",
-      "timestamp": "2026-02-03T10:49:53.876Z",
-      "line": 2,
-      "sourceId": "node:electron/js2c/renderer_init"
-    },
-    {
-      "level": "warning",
-      "message": "Console capture initialized",
-      "timestamp": "2026-02-03T10:49:54.018Z",
+      "timestamp": "2026-02-03T11:02:51.533Z",
       "line": 8,
       "sourceId": ""
     },
     {
       "level": "warning",
       "message": "Console capture initialized",
-      "timestamp": "2026-02-03T10:49:54.021Z",
+      "timestamp": "2026-02-03T11:02:51.845Z",
       "line": 8,
       "sourceId": ""
-    },
-    {
-      "level": "warning",
-      "message": "Console capture initialized",
-      "timestamp": "2026-02-03T10:49:54.021Z",
-      "line": 8,
-      "sourceId": ""
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/App.tsx",
-      "timestamp": "2026-02-03T10:50:32.688Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/App.tsx",
-      "timestamp": "2026-02-03T10:50:32.694Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/index.css",
-      "timestamp": "2026-02-03T10:50:32.752Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/index.css",
-      "timestamp": "2026-02-03T10:50:32.752Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/App.tsx",
-      "timestamp": "2026-02-03T10:50:40.509Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/App.tsx",
-      "timestamp": "2026-02-03T10:50:40.510Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/index.css",
-      "timestamp": "2026-02-03T10:50:40.512Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/index.css",
-      "timestamp": "2026-02-03T10:50:40.512Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/components/StatsPanel.tsx",
-      "timestamp": "2026-02-03T10:50:40.512Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    }
-  ]
-}{
-      "level": "log",
-      "message": "[vite] hot updated: /src/components/StatsPanel.tsx",
-      "timestamp": "2026-02-03T10:50:40.513Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/components/Cell.tsx",
-      "timestamp": "2026-02-03T10:50:40.513Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
-    },
-    {
-      "level": "log",
-      "message": "[vite] hot updated: /src/components/Cell.tsx",
-      "timestamp": "2026-02-03T10:50:40.513Z",
-      "line": 223,
-      "sourceId": "http://localhost:5174/@vite/client"
     }
   ]
 }

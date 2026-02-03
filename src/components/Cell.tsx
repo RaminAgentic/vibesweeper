@@ -4,6 +4,7 @@ import { useGameStore } from '../store/gameStore';
 
 interface CellProps {
   cell: CellType;
+  size: number;
 }
 
 /**
@@ -11,7 +12,7 @@ interface CellProps {
  * Supports desktop (mouse) and mobile (touch) interactions
  * Left-click/tap to reveal, right-click/long-press to flag
  */
-export function Cell({ cell }: CellProps) {
+export function Cell({ cell, size }: CellProps) {
   const revealCell = useGameStore(state => state.revealCell);
   const toggleFlag = useGameStore(state => state.toggleFlag);
   const gameStatus = useGameStore(state => state.gameStatus);
@@ -151,7 +152,7 @@ export function Cell({ cell }: CellProps) {
    * Get dynamic styles based on cell state and interactions
    */
   const getStyles = () => {
-    const base = 'w-10 h-10 sm:w-12 sm:h-12 border border-gray-400 flex items-center justify-center text-base sm:text-lg font-bold transition-all duration-150';
+    const base = 'border border-gray-400 flex items-center justify-center font-bold transition-all duration-150';
 
     // Prevent interactions when game is over
     const isGameOver = gameStatus === 'won' || gameStatus === 'lost';
@@ -206,12 +207,18 @@ export function Cell({ cell }: CellProps) {
     }),
   };
 
+  // Calculate font size based on cell size (roughly 40% of cell size)
+  const fontSize = Math.max(12, Math.floor(size * 0.4));
+
   return (
     <button
       className={getStyles()}
       {...eventHandlers}
       type="button"
       style={{
+        width: `${size}px`,
+        height: `${size}px`,
+        fontSize: `${fontSize}px`,
         userSelect: 'none',
         WebkitUserSelect: 'none',
         WebkitTouchCallout: 'none',

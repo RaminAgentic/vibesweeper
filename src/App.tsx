@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import { useGameStore } from './store/gameStore';
 import { Grid } from './components/Grid';
 import { StatsPanel } from './components/StatsPanel';
 import { EndGameModal } from './components/EndGameModal';
+import { DifficultyModal } from './components/DifficultyModal';
 
 function App() {
   const {
@@ -11,9 +13,14 @@ function App() {
     elapsedTime,
     moveCount,
     resetGame,
+    selectedDifficulty,
+    setDifficulty,
+    setCustomSettings,
   } = useGameStore();
 
-  const showModal = gameStatus === 'won' || gameStatus === 'lost';
+  const [isDifficultyModalOpen, setIsDifficultyModalOpen] = useState(false);
+
+  const showEndGameModal = gameStatus === 'won' || gameStatus === 'lost';
 
   const getStatusMessage = () => {
     switch (gameStatus) {
@@ -30,10 +37,8 @@ function App() {
     }
   };
 
-  // Placeholder for Sprint 4 - difficulty selector
   const handleChangeDifficulty = () => {
-    alert('Difficulty selector coming in Sprint 4!');
-    resetGame();
+    setIsDifficultyModalOpen(true);
   };
 
   return (
@@ -44,7 +49,7 @@ function App() {
       </h1>
 
       {/* Status Message */}
-      {!showModal && (
+      {!showEndGameModal && (
         <p className="text-xl font-bold mb-6 text-gray-700">
           {getStatusMessage()}
         </p>
@@ -94,7 +99,7 @@ function App() {
 
       {/* End-Game Modal */}
       <EndGameModal
-        isOpen={showModal}
+        isOpen={showEndGameModal}
         result={gameStatus === 'won' ? 'won' : 'lost'}
         stats={{
           time: elapsedTime,
@@ -103,6 +108,16 @@ function App() {
         }}
         onRestart={resetGame}
         onChangeDifficulty={handleChangeDifficulty}
+      />
+
+      {/* Difficulty Modal */}
+      <DifficultyModal
+        isOpen={isDifficultyModalOpen}
+        onClose={() => setIsDifficultyModalOpen(false)}
+        currentGameStatus={gameStatus}
+        selectedDifficulty={selectedDifficulty}
+        onSelectDifficulty={setDifficulty}
+        onApplyCustom={setCustomSettings}
       />
     </div>
   );

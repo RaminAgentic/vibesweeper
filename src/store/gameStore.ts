@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { devtools } from 'zustand/middleware';
-import type { GameState, DifficultyConfig, Coordinate, CellStatus } from '../types/game.types';
+import type { GameState, DifficultyConfig, DifficultyLevel, Coordinate, CellStatus } from '../types/game.types';
 import { createEmptyGrid } from '../utils/gridUtils';
 import { placeMinesAndCalculate } from '../utils/mineUtils';
 import { revealCellWithCascade, revealAllMines } from '../utils/revealUtils';
@@ -14,11 +14,17 @@ interface GameStore extends GameState {
   // Timer state (not persisted in GameState)
   timerInterval: number | null;
 
+  // Difficulty selection state
+  selectedDifficulty: DifficultyLevel;
+  customSettings: DifficultyConfig | null;
+
   // Actions
-  initializeGame: (difficulty: DifficultyConfig) => void;
+  initializeGame: (difficulty?: DifficultyConfig) => void;
   revealCell: (coordinate: Coordinate) => void;
   toggleFlag: (coordinate: Coordinate) => void;
   resetGame: () => void;
+  setDifficulty: (level: DifficultyLevel) => void;
+  setCustomSettings: (config: Omit<DifficultyConfig, 'level'>) => void;
   startTimer: () => void;
   stopTimer: () => void;
   tickTimer: () => void;
@@ -42,19 +48,38 @@ export const useGameStore = create<GameStore>()(
       elapsedTime: 0,
       moveCount: 0,
       timerInterval: null,
+      selectedDifficulty: 'beginner',
+      customSettings: null,
 
       /**
        * Initialize or reset the game with a new difficulty
-       * @param difficulty - The difficulty configuration to use
+       * @param difficulty - Optional difficulty configuration. If not provided, uses current selectedDifficulty
        */
       initializeGame: (difficulty) => {
         // Stop timer if running
         get().stopTimer();
 
+        const state = get();
+        let config: DifficultyConfig;
+
+        if (difficulty) {
+          config = difficulty;
+        } else {
+          // Use selectedDifficulty to determine config
+          if (state.selectedDifficulty === 'custom' && state.customSettings) {
+            config = state.customSettings;
+          } else if (state.selectedDifficulty !== 'custom') {
+            config = DIFFICULTY_PRESETS[state.selectedDifficulty];
+          } else {
+            // Fallback to beginner if custom selected but no settings
+            config = DIFFICULTY_PRESETS.beginner;
+          }
+        }
+
         set({
-          grid: createEmptyGrid(difficulty),
+          grid: createEmptyGrid(config),
           gameStatus: 'not-started',
-          difficulty,
+          difficulty: config,
           isFirstClick: true,
           revealedCount: 0,
           flagCount: 0,
@@ -233,6 +258,50 @@ export const useGameStore = create<GameStore>()(
       tickTimer: () => {
         const state = get();
         set({ elapsedTime: state.elapsedTime + 1 });
+      },
+
+      /**
+       * Set the difficulty level and reinitialize the game
+       * @param level - The difficulty level to set
+       */
+      setDifficulty: (level) => {
+        const state = get();
+        let config: DifficultyConfig;
+
+        if (level === 'custom') {
+          if (state.customSettings) {
+            config = state.customSettings;
+          } else {
+            // Default custom settings if none exist
+            config = { level: 'custom', width: 12, height: 12, mines: 20 };
+            set({ customSettings: config });
+          }
+        } else {
+          config = DIFFICULTY_PRESETS[level];
+        }
+
+        set({ selectedDifficulty: level });
+        get().initializeGame(config);
+      },
+
+      /**
+       * Save custom difficulty settings
+       * @param config - Custom configuration (width, height, mines)
+       */
+      setCustomSettings: (config) => {
+        const customConfig: DifficultyConfig = {
+          level: 'custom',
+          width: config.width,
+          height: config.height,
+          mines: config.mines,
+        };
+
+        set({
+          customSettings: customConfig,
+          selectedDifficulty: 'custom',
+        });
+
+        get().initializeGame(customConfig);
       },
     }),
     { name: 'GameStore' }
